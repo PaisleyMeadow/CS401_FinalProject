@@ -1,5 +1,5 @@
 <?php
-	include_once(index.html);
+	include(index.html);
 
-	echo "Hello .php";
+	echo "please put the html."
 ?>
