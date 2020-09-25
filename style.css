@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    background-image: linear-gradient(to right bottom, #0b032d, #12102c, #1a182b, #211f29, #272727);
+    height: 100%;
+}
+a{
+    text-decoration: none;
+}
+.ubuntu-font{
+    font-family: 'Ubuntu', sans-serif;
+}
+#page-header{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    align-items: center;
+    padding: 0;
+    width: 100%;
+
+    background-color: #272727;
+}
+#muse-logo{
+    width: 14%;
+    height: auto;
+    margin: .5vw;
+    margin-left: 1.5vw;
+}
+#header-options-container{
+    justify-self: end;
+    align-self: center;
+    margin-right: 1vw;
+    padding: 1vw;
+}
+.header-option{
+    font-size: 1.5vw;
+    color: #999999;
+    text-decoration: none;
+    text-align: center;
+    background-color: #000807;
+    /* border-radius: 2vw; */
+
+    padding: 1vw;
+}
+.header-option:hover{
+    color: #8685ef;
+}
+
+#login-container{
+    display: flex;
+    height: 100%;
+    width: auto;
+    justify-content: space-around;
+}
+#login-box{
+    align-self: center;
+    height: 65%;
+    width: 55%;
+
+    background-color: #272727;
+    border-radius: 1vw;
+}
+#welcome{
+    font-size: 5vw;
+    color: #999999;
+}
+
+#footer{
+    position: absolute;
+    bottom: 0;
+    height: 5%;
+    width: 100%;
+
+    background-color: #272727;
+    text-align: center;
+}
