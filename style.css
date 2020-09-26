@@ -1,6 +1,9 @@
 body{
     margin: 0;
-    background-image: linear-gradient(to right bottom, #0b032d, #12102c, #1a182b, #211f29, #272727);
+    /* gradien without light purple */
+    /* background-image: linear-gradient(to right bottom, #0b032d, #12102c, #1a182b, #211f29, #272727); */
+    background: rgb(11,3,45);
+    background: linear-gradient(150deg, rgba(11,3,45,1) 33%, rgba(134,133,239,1) 51%, rgba(39,39,39,1) 86%);
 }
 a{
     text-decoration: none;
@@ -56,7 +59,7 @@ a{
 }
 #login-box{
     display: grid;
-    grid-template-rows: 35% auto auto;
+    grid-template-rows: minmax(15%, 35%) auto auto;
 
     align-self: center;
     width: 55%;
@@ -64,7 +67,7 @@ a{
     background-color: #272727;
     border-radius: 1vw;
 }
-#login-box h1{
+.login-box-title{
     font-size: 5vw;
     color: #8685ef;
     text-align: center;
@@ -76,9 +79,12 @@ a{
 
     border: none;
     border-radius: 1vw;
-    background-color: #0d0d0d;
     color: #999999;
     transition: all .2s ease-in-out;
+
+    background-size: 600% auto;
+    background-image: linear-gradient(to right, #0d0d0d 0%, #272727 30%,#e41c34 100%);
+    transition: 0.5s;
 
 }
 #login-box button:first-of-type{
@@ -90,7 +96,10 @@ a{
 #login-box button:hover{
     color: #cbef43;
     cursor: pointer;
-    transform: scale(1.2);
+    transform: translateY(-1vw);
+    background-position: right center;
+
+    background-image: linear-gradient(to right, #0d0d0d 0%, #272727 30%,#e41c34 100%);
 }
 
 /* user login elements*/
@@ -113,7 +122,7 @@ a{
 
     transition: 0.5s;
 }
-.login-form-input:active{
+.login-form-input:focus{
     transform: translate(0px ,-.5vw);
 }
 .user-form-submit{
@@ -137,15 +146,21 @@ a{
 }
 
 /* user registration elements */
+#create-account-title{
+    font-size: 2vw;
+    margin-bottom: 10%;
+}
 #registration-form{
     justify-self: center;
 
     display: grid;
     grid-template-rows: repeat(8, 7%);
     row-gap: 5%;
-    width: 80%;
+    width: 60%;
 }
 #registration-form .login-form-input{
+    font-size: 1.3vw;
+    padding: 2.3%;
     justify-self: center;
 }
 #registration-form .user-form-submit{
