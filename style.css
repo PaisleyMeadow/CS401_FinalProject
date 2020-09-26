@@ -1,7 +1,6 @@
 body{
     margin: 0;
     background-image: linear-gradient(to right bottom, #0b032d, #12102c, #1a182b, #211f29, #272727);
-    height: 100%;
 }
 a{
     text-decoration: none;
@@ -9,6 +8,8 @@ a{
 .ubuntu-font{
     font-family: 'Ubuntu', sans-serif;
 }
+
+/* header */
 #page-header{
     display: grid;
     grid-template-columns: 70% 30%;
@@ -16,7 +17,7 @@ a{
     padding: 0;
     width: 100%;
 
-    background-color: #272727;
+    background-color: #0b032d;
 }
 #muse-logo{
     width: 14%;
@@ -32,37 +33,126 @@ a{
 }
 .header-option{
     font-size: 1.5vw;
-    color: #999999;
+    color: #272727;
     text-decoration: none;
     text-align: center;
-    background-color: #000807;
-    /* border-radius: 2vw; */
+    /* background-color: #0d0d0d; */
+    border-radius: 1vw;
+    transition: font-size .2s ease-in-out;
 
     padding: 1vw;
 }
 .header-option:hover{
-    color: #8685ef;
+    font-size: 2vw;
+    color: #cbef43;
 }
 
+/* welcome box */
 #login-container{
     display: flex;
-    height: 100%;
+    height: 85%;
     width: auto;
     justify-content: space-around;
 }
 #login-box{
+    display: grid;
+    grid-template-rows: 35% auto auto;
+
     align-self: center;
-    height: 65%;
     width: 55%;
 
     background-color: #272727;
     border-radius: 1vw;
 }
-#welcome{
+#login-box h1{
     font-size: 5vw;
+    color: #8685ef;
+    text-align: center;
+}
+#login-box button{
+    font-size: 4vw;
+    margin: 2.5vw;
+    padding: .5vw;
+
+    border: none;
+    border-radius: 1vw;
+    background-color: #0d0d0d;
     color: #999999;
+    transition: all .2s ease-in-out;
+
+}
+#login-box button:first-of-type{
+    margin-bottom: 0;
+}
+#login-box button:last-of-type{
+    margin-bottom: 4vw;
+}
+#login-box button:hover{
+    color: #cbef43;
+    cursor: pointer;
+    transform: scale(1.2);
 }
 
+/* user login elements*/
+#login-form{
+    justify-self: center;
+    margin-bottom: 20%;
+    width: 60%;
+
+    display:grid;
+    grid-template-rows: 30% 30% 30%;
+    row-gap: 20%;
+}
+.login-form-input{
+    background-color: #fdf0d5;
+    font-size: 1.3vw;
+    border-radius: .5vw;
+
+    width: 100%;
+    padding: 3%;
+
+    transition: 0.5s;
+}
+.login-form-input:active{
+    transform: translate(0px ,-.5vw);
+}
+.user-form-submit{
+    justify-self: center;
+    width: 80%;
+    padding: 8%;
+    line-height: 0;
+
+    font-size: 2vw;
+    border: none;
+    border-radius: 1vw;
+
+    background-size: 600% auto;
+    background-image: linear-gradient(to right, #cbef43 0%, #272727 30%,#e41c34 100%);
+    transition: 0.5s;
+}
+.user-form-submit:hover{
+    cursor: pointer;
+    background-position: right center;
+    transform: translate(0px ,.5vw);
+}
+
+/* user registration elements */
+#registration-form{
+    justify-self: center;
+
+    display: grid;
+    grid-template-rows: repeat(8, 7%);
+    row-gap: 5%;
+    width: 80%;
+}
+#registration-form .login-form-input{
+    justify-self: center;
+}
+#registration-form .user-form-submit{
+    padding: 5%;
+}
+
+/* footer */
 #footer{
     position: absolute;
     bottom: 0;

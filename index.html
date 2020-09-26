@@ -9,7 +9,7 @@
 	</head>
 	<body>
 		<div id="page-header">
-			<img id="muse-logo" src="images/muse_dark.png" alt="Muse">
+			<img id="muse-logo" src="images/muse.png" alt="Muse">
 			<div id=header-options-container>
 				<a href="contact.php"class="header-option ubuntu-font">About</a>
 				<a href="about.php"class="header-option ubuntu-font">Contact</a>
@@ -18,9 +18,32 @@
 
 		<div id="login-container">
 			<div id="login-box">
-				<h1>Welcome.</h1>
-				<button id="login">Login</button>
-				<button id="new-user">New User</button>
+				<!-- welcome elements -->
+				<!-- <h1 class="ubuntu-font">Welcome.</h1>
+				<button class="ubuntu-font">Log In</button>
+				<button class="ubuntu-font">Register</button> -->
+
+				<!-- user login elements -->
+				<!-- <h1 class="ubuntu-font">Welcome Back.</h1>
+			
+				<form id="login-form">
+					<input label="text" class="ubuntu-font login-form-input" name="login-uname" placeholder="Username" required>
+					<input label="text" class="ubuntu-font login-form-input" name="login-pw" placeholder="Password" required>
+					<input type="submit" class="ubuntu-font user-form-submit" value="Sign In">
+				</form> -->
+
+				<!-- user registration elements -->
+				<form id="registration-form">
+					<h1 class="ubuntu-font">Create Your Account:</h1>
+					<input label="text" class="ubuntu-font login-form-input" name="register-fname" placeholder="First Name" required>
+					<input label="text" class="ubuntu-font login-form-input" name="register-lname" placeholder="Last Name" required>
+					<input label="text" class="ubuntu-font login-form-input" name="register-email" placeholder="Email" required>
+					<input label="text" class="ubuntu-font login-form-input" name="register-uname" placeholder="Username" required>
+					<input label="text" type="password" class="ubuntu-font login-form-input" name="register-password" placeholder="Password" required>
+					<input label="text" type="password" class="ubuntu-font login-form-input" name="register-password-confirm" placeholder="Confirm Password" required>
+					<input type="submit" class="ubuntu-font user-form-submit" value="Register">
+				</form>
+
 			</div>		
 		</div>
 
