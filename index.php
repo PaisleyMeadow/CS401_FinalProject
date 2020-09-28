@@ -1,3 +1,5 @@
 <?php
-	include("index.html");
+	require_once("header.php");
+	require_once("welcome.php");
+	require_once("footer.php");
 ?>
