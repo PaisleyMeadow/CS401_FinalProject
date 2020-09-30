@@ -2,6 +2,7 @@
 	<head>
 		<title>Home</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="icon" type="image/png" href="images/favicon.png">
 
 		<!-- fonts -->
 		<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">

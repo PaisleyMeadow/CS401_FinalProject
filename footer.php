@@ -1,6 +1,6 @@
 <div id="push"></div>
 <div id="footer">
-			<span class="ubuntu-font">Paisley Davis © 2020</span>
+			<div class="ubuntu-font">Paisley Davis © 2020</div>
 		</div>
 	</body>
 </html>

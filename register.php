@@ -5,7 +5,7 @@
 			<div id="login-box">
 			
             <h1 id="create-account-title" class="ubuntu-font login-box-title">Create Your Account:</h1>
-            <form action="app.php" id="registration-form">
+            <form action="app.php" id="registration-form" method="POST">
                 <input label="text" class="ubuntu-font login-form-input" name="register-fname" placeholder="First Name" required>
                 <input label="text" class="ubuntu-font login-form-input" name="register-lname" placeholder="Last Name" required>
                 <input label="text" class="ubuntu-font login-form-input" name="register-email" placeholder="Email" required>
