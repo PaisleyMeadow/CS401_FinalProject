@@ -45,7 +45,7 @@ a{
 
     padding: 1vw;
 }
-.header-option:hover{
+.header-option-active, .header-option:hover{
     font-size: 3em;
     color: #cbef43;
 }

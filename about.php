@@ -1,4 +1,5 @@
 <?php
+    $thisPage = "about";
     require_once("header.php");
 ?>
 <div id="about-container">

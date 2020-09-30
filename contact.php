@@ -1,4 +1,5 @@
 <?php
+    $thisPage = "contact";
     require_once("header.php");
 ?>
 
