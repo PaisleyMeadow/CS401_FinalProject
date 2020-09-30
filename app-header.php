@@ -1,3 +1,7 @@
+<?php
+    if(!isset($_POST["login-uname"]))
+        $_POST["login-uname"] = "TempUsername";
+?>
 <html>
     <head>
         <title>Muse</title>
@@ -12,7 +16,9 @@
         <div id="app-header">
             <a href="index.php"><img src="images/muse-icon.png"></a>
             <div id="app-header-options-container">
-                <p id="username" class="ubuntu-font">Username</p>
+                <p id="username" class="ubuntu-font">
+                    <?php echo $_POST["login-uname"]; ?>
+                </p>
                 <img src="images/hamburger.png"> 
             </div>
         </div>

@@ -1,4 +1,3 @@
-<?php echo $thisPage?>
 <html>
 	<head>
 		<title>Home</title>

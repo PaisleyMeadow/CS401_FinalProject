@@ -1,14 +1,9 @@
 <?php
+    $thisPage = "app";
     require_once("app-header.php");
+    require_once("app-tabs.php");
 ?>
-        <div id="app-container">
-            <div id="tabs-container">
-                <div class="active-tab workspace-tabs ubuntu-font">All</div>
-                <div class="workspace-tabs ubuntu-font">Workspace1</div>
-                <div class="workspace-tabs ubuntu-font">Workspace2</div>
-                <div id="plus-tab" class="workspace-tabs ubuntu-font">+</div>
-            </div>
-            <div id="workspaces-container">
+            <div id="workspace-icons-container">
                 <a href="workspace1.php" class="workspace-icon ubuntu-font">
                     <img class="workspace-icon-image" src="images/ex1.jpg">
                     <img class="workspace-icon-image" src="images/ex2.png">
@@ -22,6 +17,6 @@
                     Workspace2
                 </div>
             </div>
-        </div>
-    </body>
-</html>
+<?php
+    require_once("app-footer.php");
+?>

@@ -1,4 +1,5 @@
 <?php
+    thisPage = "register";
     require_once("header.php");
 ?>
     <div id="login-container">
