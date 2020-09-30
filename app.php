@@ -10,13 +10,14 @@
                     <img class="workspace-icon-image" src="images/ex3.jpg">
                     Workspace1
                 </a>
-                <div class="workspace-icon ubuntu-font">
+                <a href="workspace2.php" class="workspace-icon ubuntu-font">
                     <img class="workspace-icon-image" src="images/ex1.jpg">
                     <img class="workspace-icon-image" src="images/ex2.png">
                     <img class="workspace-icon-image" src="images/ex3.jpg">
                     Workspace2
-                </div>
+                </a>
             </div>
 <?php
+    require_once("sidebar.php");
     require_once("app-footer.php");
 ?>

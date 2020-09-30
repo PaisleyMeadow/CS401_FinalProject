@@ -164,19 +164,54 @@ body{
     transform: skew(-3deg);
 }
 .workspace textarea{
+    resize: none;
     margin: 2em;
-    padding: 3em;
+    padding: 1em;
     width: auto;
     min-height: 50%;
     height: fit-content;
 
-    line-height: 2em;
-    /* background-image: -webkit-linear-gradient(top , transparent, transparent 49px,#E7EFF8 0), -webkit-radial-gradient(4% 50%, circle closest-corner, #f5f5f5, #f5f5f5 39%, transparent 0%), -webkit-radial-gradient(3.9% 46%, circle closest-corner, #cccccc, #cccccc 43.5%, transparent 0%);
-    
-    background-size: 100% 50px; */
+    border: none;
+    border-radius: 1em;
 
-    background-image: -webkit-linear-gradient(left, white 10px, transparent 10px), -webkit-linear-gradient(right, white 10px, transparent 10px), -webkit-linear-gradient(white 30px, #ccc 30px, #ccc 31px, white 31px);    background-size: 100% 100%, 100% 100%, 100% 31px;
+    background-color: #fdf0d5;
+    font-size: 1.5em;
+    color: #0b032d;
+
+    /* note lines I will figure out later */
+    /* background-image: url("images/blue-line.svg"); 
+    background-size: 100vw 1.5em;
+    background-repeat: repeat-y;
+    background-position: 0 0, 1.5em 0;
+    font-size: 200%/1.5;
+    line-height: 1.5;
+    margin-left: 120px; margin-right: 100px; */
+    
 }
 .workspace textarea:focus{
     outline-color: #8685ef;
+}
+
+/* sidebar menu */
+#sidebar{
+    position: fixed;
+    right: 0;
+    top: 300;
+
+    height: 50%;
+    width: 10%;
+
+    background-color: #cbef43;
+
+    display: grid;
+    grid-template-rows: repeat(3, 1fr); 
+    align-items: center;
+    justify-items: center;
+}
+#sidebar img{
+    width: 50%;
+    height: auto;
+}
+#sidebar img:hover{
+    cursor: pointer;
 }
