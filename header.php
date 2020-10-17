@@ -1,3 +1,11 @@
+<?php
+	session_start();
+	require_once("Logger.php");
+
+	//logger prints to file
+	$logger = new Logger();
+
+?>
 <html>
 	<head>
 		<title>Home</title>

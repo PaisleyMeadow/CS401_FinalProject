@@ -18,6 +18,11 @@
                 exit;
             }
         }
+
+        public function registerUser($fname, $lname, $email, $username, $pw)
+        {
+            
+        }
     }
 
 

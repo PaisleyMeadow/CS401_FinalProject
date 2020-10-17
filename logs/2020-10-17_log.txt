@@ -1,0 +1,3 @@
+12:13:24am : NOT validated.
+12:13:34am : NOT validated.
+12:14:00am : Validated
