@@ -124,8 +124,13 @@ a{
     transition: 0.5s;
 }
 .login-form-input:focus{
+    background-color: #fdf0d5;
     transform: translate(0px ,-.5vw);
 }
+.login-error{
+    background-color: #f57180;
+}
+
 .user-form-submit{
     justify-self: center;
     width: 80%;
@@ -149,7 +154,7 @@ a{
 /* user registration elements */
 #create-account-title{
     font-size: 2vw;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 #registration-form{
     justify-self: center;
@@ -165,7 +170,26 @@ a{
     justify-self: center;
 }
 #registration-form .user-form-submit{
-    padding: 5%;
+    /* padding: 5%; */
+}
+/* errors */
+.errors-container{
+    position: fixed;
+    right: 5;
+
+    width: 20%;
+    height: fit-content;
+    margin-bottom: 5%;
+}
+.errors{
+    border: 1px solid #272727;
+    background-color: #f57180;
+    color: #fdf0d5;
+    font-size: 1.5em;
+
+    padding: 1%;
+
+    width: 90%;
 }
 
 /*about page*/

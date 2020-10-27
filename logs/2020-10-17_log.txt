@@ -1,3 +1,152 @@
 12:13:24am : NOT validated.
 12:13:34am : NOT validated.
 12:14:00am : Validated
+01:23:47am : Bad password
+01:27:23am : Bad password
+01:29:02am : Array
+(
+    [reg-errors] => Array
+        (
+            [0] => nomatch
+            [1] => badpass
+        )
+
+)
+
+01:29:22am : Array
+(
+    [reg-errors] => Array
+        (
+            [0] => badpass
+        )
+
+)
+
+01:30:09am : Array
+(
+    [reg-errors] => Array
+        (
+            [0] => nomatch
+        )
+
+)
+
+01:31:03am : Array
+(
+    [reg-errors] => Array
+        (
+        )
+
+)
+
+02:04:46am : Array
+(
+    [reg-errors] => Array
+        (
+        )
+
+)
+
+02:06:23am : Array
+(
+    [reg-errors] => Array
+        (
+        )
+
+)
+
+02:06:23am : User Object
+(
+    [fname:User:private] => 
+    [lname:User:private] => 
+    [email:User:private] => 
+    [username:User:private] => 
+    [pw:User:private] => 
+)
+
+02:06:35am : Array
+(
+    [reg-errors] => Array
+        (
+        )
+
+)
+
+02:06:54am : Array
+(
+    [reg-errors] => Array
+        (
+        )
+
+)
+
+02:06:54am : User Object
+(
+    [fname:User:private] => hgjhgfj
+    [lname:User:private] => hgjhgfj
+    [email:User:private] => test@gmail.com
+    [username:User:private] => paipai
+    [pw:User:private] => 123asD
+)
+
+02:08:43am : Array
+(
+    [reg-errors] => Array
+        (
+        )
+
+)
+
+02:08:43am : User Object
+(
+    [fname:User:private] => hgjhgfj
+    [lname:User:private] => hgjhgfj
+    [email:User:private] => test@gmail.com
+    [username:User:private] => paipai
+    [pw:User:private] => 123asD
+)
+
+02:10:25am : New logger instance created.
+02:10:25am : New logger instance created.
+02:10:25am : Array
+(
+    [reg-errors] => Array
+        (
+        )
+
+)
+
+02:10:25am : User Object
+(
+    [fname:User:private] => hgjhgfj
+    [lname:User:private] => hgjhgfj
+    [email:User:private] => test@gmail.com
+    [username:User:private] => paipai
+    [pw:User:private] => 123asD
+)
+
+02:11:41am : New logger instance created.
+02:11:41am : New logger instance created.
+02:13:51am : New logger instance created.
+02:13:51am : New logger instance created.
+02:14:35am : New logger instance created.
+02:14:35am : New logger instance created.
+02:14:35am : Successful connection made
+02:14:35am : Array
+(
+    [reg-errors] => Array
+        (
+        )
+
+)
+
+02:14:35am : User Object
+(
+    [fname:User:private] => hgjhgfj
+    [lname:User:private] => hgjhgfj
+    [email:User:private] => test@gmail.com
+    [username:User:private] => paipai
+    [pw:User:private] => 123asD
+)
+
+02:14:35am : Successful connection made

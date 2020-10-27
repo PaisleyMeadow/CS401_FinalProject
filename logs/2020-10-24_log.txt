@@ -1,0 +1,217 @@
+04:50:47pm : New logger instance created.
+04:51:55pm : New logger instance created.
+04:51:55pm : New logger instance created.
+04:51:56pm : New logger instance created.
+04:51:56pm : New logger instance created.
+04:51:56pm : New logger instance created.
+04:51:56pm : New logger instance created.
+04:52:36pm : New logger instance created.
+04:52:37pm : New logger instance created.
+04:52:37pm : New logger instance created.
+04:52:37pm : New logger instance created.
+04:52:38pm : New logger instance created.
+04:52:38pm : New logger instance created.
+04:52:50pm : New logger instance created.
+04:52:53pm : New logger instance created.
+04:53:10pm : New logger instance created.
+04:53:11pm : New logger instance created.
+04:53:11pm : New logger instance created.
+04:53:17pm : New logger instance created.
+04:53:17pm : New logger instance created.
+04:53:18pm : Successful connection made
+05:01:05pm : New logger instance created.
+05:01:06pm : New logger instance created.
+05:01:08pm : New logger instance created.
+05:01:11pm : New logger instance created.
+05:01:12pm : New logger instance created.
+05:01:34pm : New logger instance created.
+05:01:55pm : New logger instance created.
+05:01:55pm : New logger instance created.
+05:01:55pm : New logger instance created.
+05:01:55pm : New logger instance created.
+05:01:56pm : New logger instance created.
+05:02:02pm : New logger instance created.
+05:02:03pm : New logger instance created.
+05:02:04pm : New logger instance created.
+05:02:23pm : New logger instance created.
+05:02:40pm : New logger instance created.
+05:02:40pm : New logger instance created.
+05:02:40pm : Successful connection made
+05:02:40pm : New logger instance created.
+05:02:48pm : New logger instance created.
+05:02:48pm : New logger instance created.
+05:02:49pm : Successful connection made
+05:05:51pm : New logger instance created.
+05:05:52pm : New logger instance created.
+05:05:52pm : New logger instance created.
+05:06:04pm : New logger instance created.
+05:06:05pm : New logger instance created.
+05:06:06pm : New logger instance created.
+05:06:06pm : New logger instance created.
+05:06:33pm : New logger instance created.
+05:08:23pm : New logger instance created.
+05:08:35pm : New logger instance created.
+05:08:36pm : New logger instance created.
+05:08:46pm : New logger instance created.
+05:08:46pm : New logger instance created.
+05:08:46pm : Successful connection made
+05:08:47pm : New logger instance created.
+05:08:59pm : New logger instance created.
+05:42:47pm : New logger instance created.
+05:42:47pm : New logger instance created.
+05:42:47pm : Successful connection made
+05:43:30pm : New logger instance created.
+05:43:30pm : New logger instance created.
+05:43:30pm : Successful connection made
+05:44:11pm : New logger instance created.
+05:44:11pm : New logger instance created.
+05:44:11pm : Successful connection made
+05:45:12pm : New logger instance created.
+05:45:12pm : New logger instance created.
+05:45:12pm : Successful connection made
+05:45:14pm : New logger instance created.
+05:45:14pm : New logger instance created.
+05:45:14pm : Successful connection made
+05:45:14pm : New logger instance created.
+05:45:14pm : New logger instance created.
+05:45:15pm : Successful connection made
+05:45:16pm : New logger instance created.
+05:45:16pm : New logger instance created.
+05:45:17pm : Successful connection made
+05:45:21pm : New logger instance created.
+05:45:21pm : New logger instance created.
+05:45:21pm : Successful connection made
+05:45:24pm : New logger instance created.
+05:45:24pm : New logger instance created.
+05:45:25pm : Successful connection made
+05:45:31pm : New logger instance created.
+05:45:31pm : New logger instance created.
+05:45:31pm : Successful connection made
+05:47:11pm : New logger instance created.
+05:47:11pm : New logger instance created.
+05:47:12pm : Successful connection made
+05:47:13pm : New logger instance created.
+05:47:13pm : New logger instance created.
+05:47:13pm : Successful connection made
+05:47:38pm : New logger instance created.
+05:47:38pm : New logger instance created.
+05:47:38pm : Successful connection made
+05:47:48pm : New logger instance created.
+05:47:48pm : New logger instance created.
+05:47:48pm : Successful connection made
+05:48:07pm : New logger instance created.
+05:48:07pm : New logger instance created.
+05:48:07pm : Successful connection made
+05:48:36pm : New logger instance created.
+05:48:36pm : New logger instance created.
+05:48:36pm : Successful connection made
+05:48:37pm : New logger instance created.
+05:48:37pm : New logger instance created.
+05:48:37pm : Successful connection made
+05:49:12pm : New logger instance created.
+05:49:12pm : New logger instance created.
+05:49:12pm : Successful connection made
+05:49:12pm : 
+05:50:00pm : New logger instance created.
+05:50:00pm : New logger instance created.
+05:50:00pm : Successful connection made
+05:50:00pm : user id: 31
+05:50:01pm : result: 
+05:50:46pm : New logger instance created.
+05:50:46pm : New logger instance created.
+05:50:46pm : Successful connection made
+05:50:46pm : user id: 31
+05:50:46pm : result: 
+05:50:59pm : New logger instance created.
+05:50:59pm : New logger instance created.
+05:50:59pm : Successful connection made
+05:50:59pm : user id: 31
+05:50:59pm : result: 
+05:51:35pm : New logger instance created.
+05:51:35pm : New logger instance created.
+05:51:39pm : Successful connection made
+05:51:41pm : result: 
+05:52:00pm : New logger instance created.
+05:52:00pm : New logger instance created.
+05:52:04pm : Successful connection made
+05:56:38pm : New logger instance created.
+05:56:38pm : New logger instance created.
+05:56:39pm : Successful connection made
+05:56:51pm : New logger instance created.
+05:56:51pm : New logger instance created.
+05:56:51pm : Successful connection made
+05:57:02pm : New logger instance created.
+05:57:02pm : New logger instance created.
+05:57:03pm : Successful connection made
+05:57:08pm : New logger instance created.
+05:57:08pm : New logger instance created.
+05:57:08pm : Successful connection made
+05:57:11pm : New logger instance created.
+05:57:11pm : New logger instance created.
+05:57:12pm : Successful connection made
+05:57:26pm : New logger instance created.
+05:57:26pm : New logger instance created.
+05:57:26pm : Successful connection made
+06:03:46pm : New logger instance created.
+06:03:46pm : New logger instance created.
+06:03:47pm : Successful connection made
+06:04:38pm : New logger instance created.
+06:04:38pm : New logger instance created.
+06:04:38pm : Successful connection made
+06:04:45pm : New logger instance created.
+06:04:45pm : New logger instance created.
+06:04:45pm : Successful connection made
+06:07:44pm : New logger instance created.
+06:07:44pm : New logger instance created.
+06:07:44pm : Successful connection made
+06:08:33pm : New logger instance created.
+06:08:33pm : New logger instance created.
+06:08:33pm : Successful connection made
+06:12:30pm : New logger instance created.
+06:12:30pm : New logger instance created.
+06:12:30pm : Successful connection made
+06:12:33pm : New logger instance created.
+06:12:33pm : New logger instance created.
+06:12:33pm : Successful connection made
+06:17:10pm : New logger instance created.
+06:17:10pm : New logger instance created.
+06:17:10pm : Successful connection made
+06:25:08pm : New logger instance created.
+06:25:08pm : New logger instance created.
+06:25:10pm : Successful connection made
+06:30:15pm : New logger instance created.
+06:30:15pm : New logger instance created.
+06:30:17pm : Successful connection made
+06:43:12pm : New logger instance created.
+06:43:12pm : New logger instance created.
+06:43:13pm : Successful connection made
+06:50:38pm : New logger instance created.
+06:50:38pm : New logger instance created.
+06:50:38pm : Successful connection made
+06:52:32pm : New logger instance created.
+06:52:32pm : New logger instance created.
+06:52:33pm : Successful connection made
+06:57:21pm : New logger instance created.
+06:57:21pm : New logger instance created.
+06:57:21pm : Successful connection made
+07:03:06pm : New logger instance created.
+07:03:06pm : New logger instance created.
+07:03:07pm : Successful connection made
+07:06:07pm : New logger instance created.
+07:06:07pm : New logger instance created.
+07:06:07pm : Successful connection made
+07:25:45pm : New logger instance created.
+07:25:45pm : New logger instance created.
+07:25:45pm : Successful connection made
+07:28:03pm : New logger instance created.
+07:28:03pm : New logger instance created.
+07:28:03pm : Successful connection made
+07:29:21pm : New logger instance created.
+07:29:21pm : New logger instance created.
+07:29:21pm : Successful connection made
+07:30:50pm : New logger instance created.
+07:30:50pm : New logger instance created.
+07:30:50pm : Successful connection made
+07:31:20pm : New logger instance created.
+07:31:20pm : New logger instance created.
+07:31:21pm : Successful connection made

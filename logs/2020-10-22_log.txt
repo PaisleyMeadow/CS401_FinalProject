@@ -1,0 +1,776 @@
+{$date} : {$message} \n{$date} : {$message} \n{$date} : {$message} \n{$date} : {$message} \n{$date} : {$message} \n{$date} : {$message} \n{$date} : {$message} \n
+12:42:25am : New logger instance created.
+12:42:25am : New logger instance created.
+12:42:26am : Successful connection made
+12:42:26am : Errors:Array
+(
+    [reg-errors] => Array
+        (
+        )
+
+)
+
+12:42:26am : New User:User Object
+(
+    [id:User:private] => 
+    [fname:User:private] => Paisley 
+    [lname:User:private] => kjhlkjhl
+    [email:User:private] => paisley1000@gmail.com
+    [username:User:private] => kjlkjl
+    [pw:User:private] => 123Abc
+)
+
+12:42:26am : Successful connection made
+12:42:26am : Vars: Array
+(
+)
+
+12:44:59am : New logger instance created.
+12:44:59am : New logger instance created.
+12:44:59am : Successful connection made
+12:44:59am : Errors:Array
+(
+    [reg-errors] => Array
+        (
+        )
+
+)
+
+12:44:59am : New User:User Object
+(
+    [id:User:private] => 
+    [fname:User:private] => Paisley 
+    [lname:User:private] => kjhlkjhl
+    [email:User:private] => paisley1000@gmail.com
+    [username:User:private] => kjlkjl
+    [pw:User:private] => 123Abc
+)
+
+12:44:59am : Successful connection made
+12:44:59am : Vars: Array
+(
+)
+
+12:44:59am : Query dump: 
+12:47:38am : New logger instance created.
+12:47:38am : New logger instance created.
+12:47:38am : Successful connection made
+12:47:38am : Errors:Array
+(
+    [reg-errors] => Array
+        (
+        )
+
+)
+
+12:47:38am : New User:User Object
+(
+    [id:User:private] => 
+    [fname:User:private] => Paisley 
+    [lname:User:private] => kjhlkjhl
+    [email:User:private] => paisley1000@gmail.com
+    [username:User:private] => kjlkjl
+    [pw:User:private] => 123Abc
+)
+
+12:47:39am : Successful connection made
+12:47:39am : Vars: 
+12:47:39am : Query dump: 
+12:48:27am : New logger instance created.
+12:48:35am : New logger instance created.
+12:48:35am : New logger instance created.
+12:48:35am : Successful connection made
+12:48:35am : Errors:Array
+(
+    [reg-errors] => Array
+        (
+        )
+
+)
+
+12:48:35am : New User:User Object
+(
+    [id:User:private] => 
+    [fname:User:private] => Paisley 
+    [lname:User:private] => kjhlkjhl
+    [email:User:private] => paisley1000@gmail.com
+    [username:User:private] => kjlkjl
+    [pw:User:private] => 123Abc
+)
+
+12:48:36am : Successful connection made
+12:48:36am : 
+12:48:36am : Vars: 
+12:48:36am : Query dump: 
+12:50:09am : New logger instance created.
+12:50:09am : New logger instance created.
+12:50:11am : Successful connection made
+12:50:11am : Errors:Array
+(
+    [reg-errors] => Array
+        (
+        )
+
+)
+
+12:50:11am : New User:User Object
+(
+    [id] => 
+    [fname] => Paisley 
+    [lname] => kjhlkjhl
+    [email] => paisley1000@gmail.com
+    [username] => kjlkjl
+    [pw] => 123Abc
+)
+
+12:50:12am : Successful connection made
+12:50:12am : 
+12:50:12am : Vars: 
+12:51:33am : New logger instance created.
+12:51:33am : New logger instance created.
+12:51:33am : Successful connection made
+12:51:33am : Errors:Array
+(
+    [reg-errors] => Array
+        (
+        )
+
+)
+
+12:51:33am : New User:User Object
+(
+    [id] => 
+    [fname] => Paisley 
+    [lname] => kjhlkjhl
+    [email] => paisley1000@gmail.com
+    [username] => kjlkjl
+    [pw] => 123Abc
+)
+
+12:51:33am : Successful connection made
+12:51:33am : 
+12:51:33am : Vars: 
+12:52:02am : New logger instance created.
+12:52:02am : New logger instance created.
+12:52:03am : Successful connection made
+12:52:03am : Errors:Array
+(
+    [reg-errors] => Array
+        (
+        )
+
+)
+
+12:52:03am : New User:User Object
+(
+    [id] => 
+    [fname] => Paisley 
+    [lname] => kjhlkjhl
+    [email] => paisley1000@gmail.com
+    [username] => kjlkjl
+    [pw] => 123Abc
+)
+
+12:52:03am : Successful connection made
+12:52:03am : 
+12:52:03am : Vars: 
+12:52:59am : New logger instance created.
+12:52:59am : New logger instance created.
+12:53:00am : Successful connection made
+12:53:00am : Errors:Array
+(
+    [reg-errors] => Array
+        (
+        )
+
+)
+
+12:53:00am : New User:User Object
+(
+    [id] => 
+    [fname] => Paisley 
+    [lname] => kjhlkjhl
+    [email] => paisley1000@gmail.com
+    [username] => kjlkjl
+    [pw] => 123Abc
+)
+
+12:53:01am : Successful connection made
+12:53:01am : 
+12:53:01am : Vars: 
+12:53:55am : New logger instance created.
+05:25:17pm : New logger instance created.
+05:25:17pm : New logger instance created.
+05:25:17pm : Successful connection made
+05:25:17pm : Errors:Array
+(
+    [reg-errors] => Array
+        (
+        )
+
+)
+
+05:25:17pm : New User:User Object
+(
+    [id] => 
+    [fname] => Paisley 
+    [lname] => kjhlkjhl
+    [email] => paisley1000@gmail.com
+    [username] => kjlkjl
+    [pw] => 123Abc
+)
+
+05:25:17pm : Successful connection made
+05:25:17pm : 
+05:25:17pm : Vars: 
+05:30:46pm : New logger instance created.
+05:30:53pm : New logger instance created.
+05:30:53pm : New logger instance created.
+05:30:53pm : Successful connection made
+05:30:53pm : Errors:Array
+(
+    [reg-errors] => Array
+        (
+            [0] => badpass
+        )
+
+)
+
+05:30:53pm : New logger instance created.
+05:31:09pm : New logger instance created.
+05:31:09pm : New logger instance created.
+05:31:09pm : Successful connection made
+05:31:09pm : Errors:Array
+(
+    [reg-errors] => Array
+        (
+        )
+
+)
+
+05:31:10pm : Successful connection made
+05:32:01pm : New logger instance created.
+05:32:01pm : New logger instance created.
+05:32:02pm : Successful connection made
+05:32:02pm : Errors:Array
+(
+    [reg-errors] => Array
+        (
+        )
+
+)
+
+05:32:03pm : Successful connection made
+05:32:03pm : 
+05:32:03pm : New User:Array
+(
+    [register-fname] => Paisley 
+    [register-lname] => kjhlkjhl
+    [register-email] => paisley1000@gmail.com
+    [register-uname] => gfhgfh
+    [register-password] => 123abC
+    [register-password-confirm] => 123abC
+)
+
+05:32:24pm : New logger instance created.
+05:32:24pm : New logger instance created.
+05:32:25pm : Successful connection made
+05:32:25pm : Errors:Array
+(
+    [reg-errors] => Array
+        (
+        )
+
+)
+
+05:32:26pm : Successful connection made
+05:32:26pm : 
+05:32:26pm : New User:Array
+(
+    [register-fname] => Paisley 
+    [register-lname] => kjhlkjhl
+    [register-email] => paisley1000@gmail.com
+    [register-uname] => gfhgfh
+    [register-password] => 123abC
+    [register-password-confirm] => 123abC
+)
+
+05:35:03pm : New logger instance created.
+05:35:03pm : New logger instance created.
+05:35:03pm : Successful connection made
+05:35:03pm : Errors:Array
+(
+    [reg-errors] => Array
+        (
+        )
+
+)
+
+05:35:04pm : Successful connection made
+05:35:04pm : New User:Array
+(
+    [register-fname] => Paisley 
+    [register-lname] => kjhlkjhl
+    [register-email] => paisley1000@gmail.com
+    [register-uname] => gfhgfh
+    [register-password] => 123abC
+    [register-password-confirm] => 123abC
+)
+
+05:36:03pm : New logger instance created.
+05:36:03pm : New logger instance created.
+05:36:04pm : Successful connection made
+05:36:04pm : Errors:Array
+(
+    [reg-errors] => Array
+        (
+        )
+
+)
+
+05:36:04pm : Successful connection made
+05:36:04pm : New User:Array
+(
+    [register-fname] => Paisley 
+    [register-lname] => kjhlkjhl
+    [register-email] => paisley1000@gmail.com
+    [register-uname] => gfhgfh
+    [register-password] => 123abC
+    [register-password-confirm] => 123abC
+)
+
+05:44:44pm : New logger instance created.
+05:44:44pm : New logger instance created.
+05:44:45pm : Successful connection made
+05:44:45pm : Errors:Array
+(
+    [reg-errors] => Array
+        (
+        )
+
+)
+
+05:44:45pm : Successful connection made
+05:44:45pm : New User Data:Array
+(
+    [register-fname] => Paisley 
+    [register-lname] => kjhlkjhl
+    [register-email] => paisley1000@gmail.com
+    [register-uname] => gfhgfh
+    [register-password] => 123abC
+    [register-password-confirm] => 123abC
+)
+
+05:54:37pm : New logger instance created.
+05:55:52pm : New logger instance created.
+05:55:52pm : New logger instance created.
+05:55:52pm : Successful connection made
+05:55:52pm : Errors:Array
+(
+    [reg-errors] => Array
+        (
+        )
+
+)
+
+05:55:52pm : New User Data:Array
+(
+    [register-fname] => Paisley 
+    [register-lname] => kjhlkjhl
+    [register-email] => paisley1000@gmail.com
+    [register-uname] => gfhgfh
+    [register-password] => 123Abc
+    [register-password-confirm] => 123Abc
+)
+
+05:55:52pm : Successful connection made
+05:55:52pm : New logger instance created.
+05:57:32pm : New logger instance created.
+05:57:40pm : New logger instance created.
+05:57:58pm : New logger instance created.
+05:57:58pm : New logger instance created.
+05:57:59pm : Successful connection made
+05:57:59pm : Errors:Array
+(
+    [reg-errors] => Array
+        (
+        )
+
+)
+
+05:57:59pm : New User Data:Array
+(
+    [register-fname] => Test
+    [register-lname] => Last
+    [register-email] => a@g.com
+    [register-uname] => pai
+    [register-password] => 123Abc
+    [register-password-confirm] => 123Abc
+)
+
+05:57:59pm : Successful connection made
+05:58:29pm : New logger instance created.
+05:58:31pm : New logger instance created.
+05:59:13pm : New logger instance created.
+05:59:13pm : New logger instance created.
+05:59:13pm : Successful connection made
+05:59:13pm : Errors:Array
+(
+    [reg-errors] => Array
+        (
+        )
+
+)
+
+05:59:13pm : New User Data:Array
+(
+    [register-fname] => Test
+    [register-lname] => Last
+    [register-email] => a@g.com
+    [register-uname] => pai
+    [register-password] => 123Abc
+    [register-password-confirm] => 123Abc
+)
+
+05:59:14pm : Successful connection made
+05:59:14pm : New logger instance created.
+05:59:58pm : New logger instance created.
+05:59:58pm : New logger instance created.
+05:59:58pm : Successful connection made
+05:59:58pm : Errors:Array
+(
+    [reg-errors] => Array
+        (
+        )
+
+)
+
+05:59:58pm : New User Data:Array
+(
+    [register-fname] => Test
+    [register-lname] => Last
+    [register-email] => paisley1000@gmail.com
+    [register-uname] => pai
+    [register-password] => 123Abc
+    [register-password-confirm] => 123Abc
+)
+
+05:59:58pm : Successful connection made
+05:59:58pm : New logger instance created.
+06:02:39pm : New logger instance created.
+06:02:52pm : New logger instance created.
+06:02:52pm : New logger instance created.
+06:02:52pm : Successful connection made
+06:02:52pm : Errors:Array
+(
+    [reg-errors] => Array
+        (
+        )
+
+)
+
+06:02:52pm : New User Data:Array
+(
+    [register-fname] => Paisley 
+    [register-lname] => Davis
+    [register-email] => paisley1000@gmail.com
+    [register-uname] => pai
+    [register-password] => 123Abc
+    [register-password-confirm] => 123Abc
+)
+
+06:02:53pm : Successful connection made
+06:02:53pm : Query Errors:23000
+06:02:53pm : New logger instance created.
+06:20:52pm : New logger instance created.
+06:20:52pm : New logger instance created.
+06:20:52pm : Successful connection made
+06:20:52pm : Errors:Array
+(
+    [reg-errors] => Array
+        (
+            [0] => email
+        )
+
+)
+
+06:24:29pm : New logger instance created.
+06:24:50pm : New logger instance created.
+06:28:48pm : New logger instance created.
+06:29:17pm : New logger instance created.
+06:29:18pm : New logger instance created.
+06:29:18pm : New logger instance created.
+06:29:19pm : New logger instance created.
+06:30:01pm : New logger instance created.
+06:30:02pm : New logger instance created.
+06:30:02pm : New logger instance created.
+06:30:03pm : New logger instance created.
+06:30:03pm : New logger instance created.
+06:30:52pm : New logger instance created.
+06:31:11pm : New logger instance created.
+06:31:29pm : New logger instance created.
+06:31:43pm : New logger instance created.
+06:31:44pm : New logger instance created.
+06:31:44pm : New logger instance created.
+06:31:44pm : New logger instance created.
+06:31:45pm : New logger instance created.
+06:32:47pm : New logger instance created.
+06:32:49pm : New logger instance created.
+06:32:49pm : New logger instance created.
+06:32:49pm : New logger instance created.
+06:32:49pm : New logger instance created.
+06:33:07pm : New logger instance created.
+06:33:51pm : New logger instance created.
+06:33:52pm : New logger instance created.
+06:33:52pm : New logger instance created.
+06:33:52pm : New logger instance created.
+06:34:38pm : New logger instance created.
+06:35:29pm : New logger instance created.
+06:35:37pm : New logger instance created.
+06:35:59pm : New logger instance created.
+06:36:19pm : New logger instance created.
+06:36:54pm : New logger instance created.
+06:37:27pm : New logger instance created.
+06:38:02pm : New logger instance created.
+06:38:28pm : New logger instance created.
+06:38:41pm : New logger instance created.
+06:43:04pm : New logger instance created.
+06:43:20pm : New logger instance created.
+06:43:41pm : New logger instance created.
+06:43:53pm : New logger instance created.
+06:43:53pm : New logger instance created.
+06:43:53pm : Successful connection made
+06:43:53pm : Errors:Array
+(
+    [reg-errors] => Array
+        (
+            [0] => nomatch
+            [1] => badpass
+        )
+
+)
+
+06:43:53pm : New logger instance created.
+06:45:25pm : New logger instance created.
+06:45:32pm : New logger instance created.
+06:48:17pm : New logger instance created.
+06:48:17pm : New logger instance created.
+06:48:18pm : New logger instance created.
+06:48:18pm : New logger instance created.
+06:48:26pm : New logger instance created.
+06:48:26pm : New logger instance created.
+06:48:27pm : Successful connection made
+06:48:27pm : Errors:Array
+(
+    [reg-errors] => Array
+        (
+            [0] => nomatch
+            [1] => badpass
+        )
+
+)
+
+06:48:27pm : New logger instance created.
+06:48:39pm : New logger instance created.
+06:48:39pm : New logger instance created.
+06:48:39pm : Successful connection made
+06:48:39pm : Errors:Array
+(
+    [reg-errors] => Array
+        (
+        )
+
+)
+
+06:48:39pm : New User Data:Array
+(
+    [register-fname] => kjlkjl
+    [register-lname] => kjhlkjhl
+    [register-email] => paisley1000@gmail.com
+    [register-uname] => cxbvcb
+    [register-password] => 123Abc
+    [register-password-confirm] => 123Abc
+)
+
+06:48:39pm : Successful connection made
+06:48:40pm : Query Errors:23000
+06:48:40pm : New logger instance created.
+06:51:40pm : New logger instance created.
+06:52:02pm : New logger instance created.
+06:52:38pm : New logger instance created.
+06:52:38pm : New logger instance created.
+06:52:39pm : Successful connection made
+06:52:39pm : Errors:Array
+(
+    [reg-errors] => Array
+        (
+        )
+
+)
+
+06:52:39pm : New User Data:Array
+(
+    [register-fname] => Conrad
+    [register-lname] => Kenningtong
+    [register-email] => c@k.com
+    [register-uname] => cTeach
+    [register-password] => 123Abc
+    [register-password-confirm] => 123Abc
+)
+
+06:52:40pm : Successful connection made
+06:52:40pm : Query Errors:00000
+06:52:40pm : New logger instance created.
+06:56:52pm : New logger instance created.
+06:57:12pm : New logger instance created.
+06:57:24pm : New logger instance created.
+06:57:27pm : New logger instance created.
+06:57:28pm : New logger instance created.
+06:58:29pm : New logger instance created.
+06:58:30pm : New logger instance created.
+06:58:32pm : New logger instance created.
+06:58:34pm : New logger instance created.
+06:58:34pm : New logger instance created.
+06:59:49pm : New logger instance created.
+07:00:01pm : New logger instance created.
+07:00:27pm : New logger instance created.
+07:00:27pm : New logger instance created.
+07:00:27pm : Successful connection made
+07:00:27pm : Errors:Array
+(
+    [reg-errors] => Array
+        (
+        )
+
+)
+
+07:00:27pm : New User Data:Array
+(
+    [register-fname] => Testing
+    [register-lname] => Test
+    [register-email] => test@test.com
+    [register-uname] => testUser
+    [register-password] => 123Abc
+    [register-password-confirm] => 123Abc
+)
+
+07:00:28pm : Successful connection made
+07:00:28pm : Query Errors:00000
+07:00:28pm : New logger instance created.
+07:01:44pm : New logger instance created.
+07:01:46pm : New logger instance created.
+07:01:55pm : New logger instance created.
+07:01:55pm : New logger instance created.
+07:01:55pm : Successful connection made
+07:01:55pm : Errors:Array
+(
+    [reg-errors] => Array
+        (
+            [0] => email
+            [1] => nomatch
+            [2] => badpass
+        )
+
+    [new_user] => 1
+)
+
+07:01:55pm : New logger instance created.
+07:11:36pm : New logger instance created.
+07:11:36pm : New logger instance created.
+07:11:36pm : Successful connection made
+07:11:36pm : Errors:Array
+(
+    [reg-errors] => Array
+        (
+            [0] => nomatch
+        )
+
+    [new_user] => 1
+)
+
+07:11:36pm : New logger instance created.
+07:19:14pm : New logger instance created.
+07:19:15pm : New logger instance created.
+07:19:15pm : New logger instance created.
+07:19:15pm : New logger instance created.
+07:19:15pm : New logger instance created.
+07:19:16pm : New logger instance created.
+07:19:34pm : New logger instance created.
+07:19:35pm : New logger instance created.
+07:23:42pm : New logger instance created.
+07:23:43pm : New logger instance created.
+07:24:02pm : New logger instance created.
+07:24:03pm : New logger instance created.
+07:24:04pm : New logger instance created.
+07:27:08pm : New logger instance created.
+07:28:08pm : New logger instance created.
+07:31:57pm : New logger instance created.
+07:32:52pm : New logger instance created.
+07:34:22pm : New logger instance created.
+07:34:22pm : New logger instance created.
+07:34:22pm : New logger instance created.
+07:34:22pm : New logger instance created.
+07:34:24pm : New logger instance created.
+07:34:48pm : New logger instance created.
+07:34:49pm : New logger instance created.
+07:34:49pm : New logger instance created.
+07:34:49pm : New logger instance created.
+07:34:55pm : New logger instance created.
+07:34:55pm : New logger instance created.
+07:34:55pm : New logger instance created.
+07:34:56pm : New logger instance created.
+07:34:56pm : New logger instance created.
+07:34:56pm : New logger instance created.
+07:35:01pm : New logger instance created.
+07:35:15pm : New logger instance created.
+07:35:15pm : New logger instance created.
+07:35:15pm : New logger instance created.
+07:35:15pm : New logger instance created.
+07:35:16pm : New logger instance created.
+07:35:33pm : New logger instance created.
+07:35:33pm : New logger instance created.
+07:35:33pm : New logger instance created.
+07:35:33pm : New logger instance created.
+07:35:34pm : New logger instance created.
+07:35:38pm : New logger instance created.
+07:35:49pm : New logger instance created.
+07:35:50pm : New logger instance created.
+07:35:50pm : New logger instance created.
+07:35:50pm : New logger instance created.
+07:36:04pm : New logger instance created.
+07:36:04pm : New logger instance created.
+07:36:04pm : Successful connection made
+07:36:04pm : Errors:Array
+(
+    [reg-errors] => Array
+        (
+            [0] => email
+            [1] => nomatch
+            [2] => badpass
+        )
+
+)
+
+07:36:04pm : New logger instance created.
+07:36:28pm : New logger instance created.
+07:36:29pm : New logger instance created.
+07:36:29pm : New logger instance created.
+07:36:29pm : New logger instance created.
+07:36:41pm : New logger instance created.
+07:36:41pm : New logger instance created.
+07:36:41pm : New logger instance created.
+07:36:50pm : New logger instance created.
+07:36:50pm : New logger instance created.
+07:36:50pm : Successful connection made
+07:36:50pm : Errors:Array
+(
+    [reg-errors] => Array
+        (
+            [0] => email
+            [1] => nomatch
+            [2] => badpass
+        )
+
+)
+
+07:36:50pm : New logger instance created.

@@ -1,0 +1,516 @@
+04:52:14pm : New logger instance created.
+04:52:15pm : New logger instance created.
+05:33:29pm : New logger instance created.
+05:33:30pm : New logger instance created.
+05:33:30pm : Array
+(
+)
+
+05:34:15pm : New logger instance created.
+05:34:15pm : New logger instance created.
+05:34:15pm : Errors:Array
+(
+    [reg-errors] => Array
+        (
+            [email] => Invalid email.
+        )
+
+)
+
+05:34:15pm : New logger instance created.
+05:34:15pm : Array
+(
+    [reg-errors] => Array
+        (
+            [email] => Invalid email.
+        )
+
+    [reg-form] => Array
+        (
+            [register-fname] => Paisley 
+            [register-lname] => kjhlkjhl
+            [register-email] => fgh@lilol
+            [register-uname] => pai
+            [register-password] => 123Abc
+            [register-password-confirm] => 123Abc
+        )
+
+)
+
+05:34:31pm : New logger instance created.
+05:34:31pm : New logger instance created.
+05:34:31pm : Errors:Array
+(
+    [reg-form] => Array
+        (
+            [register-fname] => Paisley 
+            [register-lname] => kjhlkjhl
+            [register-email] => fgh@lilol
+            [register-uname] => pai
+            [register-password] => 123Abc
+            [register-password-confirm] => 123Abc
+        )
+
+    [reg-errors] => Array
+        (
+        )
+
+)
+
+05:34:31pm : Successful connection made
+05:34:32pm : Successful connection made
+05:34:32pm : username found
+05:34:32pm : New logger instance created.
+05:34:32pm : Array
+(
+    [reg-form] => Array
+        (
+            [register-fname] => Paisley 
+            [register-lname] => hjkjhk
+            [register-email] => paisley1000@gmail.com
+            [register-uname] => pai
+            [register-password] => 123Abc
+            [register-password-confirm] => 123Abc
+        )
+
+    [reg-errors] => Array
+        (
+            [sameemail] => Email already in use.
+            [sameusername] => Username already in use.
+        )
+
+)
+
+05:35:38pm : New logger instance created.
+05:35:38pm : Array
+(
+    [reg-form] => Array
+        (
+            [register-fname] => Paisley 
+            [register-lname] => hjkjhk
+            [register-email] => paisley1000@gmail.com
+            [register-uname] => pai
+            [register-password] => 123Abc
+            [register-password-confirm] => 123Abc
+        )
+
+)
+
+05:35:46pm : New logger instance created.
+05:35:46pm : New logger instance created.
+05:35:46pm : Errors:Array
+(
+    [reg-form] => Array
+        (
+            [register-fname] => Paisley 
+            [register-lname] => hjkjhk
+            [register-email] => paisley1000@gmail.com
+            [register-uname] => pai
+            [register-password] => 123Abc
+            [register-password-confirm] => 123Abc
+        )
+
+    [reg-errors] => Array
+        (
+            [nomatch] => Passwords do not match.
+            [badpass] => Password does not fulfill requirements: at least 6 characters, including 1 capital letter and 1 digit.
+        )
+
+)
+
+05:35:46pm : New logger instance created.
+05:35:46pm : Array
+(
+    [reg-form] => Array
+        (
+            [register-fname] => jhkjhl
+            [register-lname] => hjgkgjhk
+            [register-email] => paisley1000@gmail.com
+            [register-uname] => ghjkjhk
+            [register-password] => 12vhgf
+            [register-password-confirm] => gfhgfh
+        )
+
+    [reg-errors] => Array
+        (
+            [nomatch] => Passwords do not match.
+            [badpass] => Password does not fulfill requirements: at least 6 characters, including 1 capital letter and 1 digit.
+        )
+
+)
+
+05:36:55pm : New logger instance created.
+05:36:55pm : Array
+(
+    [reg-form] => Array
+        (
+            [register-fname] => jhkjhl
+            [register-lname] => hjgkgjhk
+            [register-email] => paisley1000@gmail.com
+            [register-uname] => ghjkjhk
+            [register-password] => 12vhgf
+            [register-password-confirm] => gfhgfh
+        )
+
+)
+
+05:37:01pm : New logger instance created.
+05:37:01pm : New logger instance created.
+05:37:02pm : Successful connection made
+05:37:02pm : Successful connection made
+05:37:02pm : username found
+05:37:02pm : Errors:Array
+(
+    [reg-form] => Array
+        (
+            [register-fname] => jhkjhl
+            [register-lname] => hjgkgjhk
+            [register-email] => paisley1000@gmail.com
+            [register-uname] => ghjkjhk
+            [register-password] => 12vhgf
+            [register-password-confirm] => gfhgfh
+        )
+
+    [reg-errors] => Array
+        (
+            [nomatch] => Passwords do not match.
+            [badpass] => Password does not fulfill requirements: at least 6 characters, including 1 capital letter and 1 digit.
+            [sameemail] => Email already in use.
+            [sameusername] => Username already in use.
+        )
+
+)
+
+05:37:02pm : New logger instance created.
+05:37:02pm : Array
+(
+    [reg-form] => Array
+        (
+            [register-fname] => hcgfjnhbc
+            [register-lname] => hgfjhgj
+            [register-email] => paisley1000@gmail.com
+            [register-uname] => pai
+            [register-password] => hgjhgfj
+            [register-password-confirm] => ghjhgj
+        )
+
+    [reg-errors] => Array
+        (
+            [nomatch] => Passwords do not match.
+            [badpass] => Password does not fulfill requirements: at least 6 characters, including 1 capital letter and 1 digit.
+            [sameemail] => Email already in use.
+            [sameusername] => Username already in use.
+        )
+
+)
+
+05:39:15pm : New logger instance created.
+05:39:15pm : Array
+(
+    [reg-form] => Array
+        (
+            [register-fname] => hcgfjnhbc
+            [register-lname] => hgfjhgj
+            [register-email] => paisley1000@gmail.com
+            [register-uname] => pai
+            [register-password] => hgjhgfj
+            [register-password-confirm] => ghjhgj
+        )
+
+)
+
+05:39:23pm : New logger instance created.
+05:39:23pm : New logger instance created.
+05:39:23pm : Successful connection made
+05:39:24pm : Successful connection made
+05:39:24pm : username found
+05:39:24pm : Errors:Array
+(
+    [reg-form] => Array
+        (
+            [register-fname] => hcgfjnhbc
+            [register-lname] => hgfjhgj
+            [register-email] => paisley1000@gmail.com
+            [register-uname] => pai
+            [register-password] => hgjhgfj
+            [register-password-confirm] => ghjhgj
+        )
+
+    [reg-errors] => Array
+        (
+            [nomatch] => Passwords do not match.
+            [badpass] => Password does not fulfill requirements: at least 6 characters, including 1 capital letter and 1 digit.
+            [sameemail] => Email already in use.
+            [sameusername] => Username already in use.
+        )
+
+)
+
+05:39:24pm : New logger instance created.
+05:39:24pm : Array
+(
+    [reg-form] => Array
+        (
+            [register-fname] => fghggdf
+            [register-lname] => gdfhfgdh
+            [register-email] => paisley1000@gmail.com
+            [register-uname] => pai
+            [register-password] => gfhgfdh
+            [register-password-confirm] => gfdhgfdh
+        )
+
+    [reg-errors] => Array
+        (
+            [nomatch] => Passwords do not match.
+            [badpass] => Password does not fulfill requirements: at least 6 characters, including 1 capital letter and 1 digit.
+            [sameemail] => Email already in use.
+            [sameusername] => Username already in use.
+        )
+
+)
+
+05:39:46pm : New logger instance created.
+05:39:46pm : Array
+(
+    [reg-form] => Array
+        (
+            [register-fname] => fghggdf
+            [register-lname] => gdfhfgdh
+            [register-email] => paisley1000@gmail.com
+            [register-uname] => pai
+            [register-password] => gfhgfdh
+            [register-password-confirm] => gfdhgfdh
+        )
+
+)
+
+05:39:52pm : New logger instance created.
+05:39:52pm : New logger instance created.
+05:39:52pm : Successful connection made
+05:39:53pm : Successful connection made
+05:39:53pm : username found
+05:39:53pm : Errors:Array
+(
+    [reg-form] => Array
+        (
+            [register-fname] => fghggdf
+            [register-lname] => gdfhfgdh
+            [register-email] => paisley1000@gmail.com
+            [register-uname] => pai
+            [register-password] => gfhgfdh
+            [register-password-confirm] => gfdhgfdh
+        )
+
+    [reg-errors] => Array
+        (
+            [email] => Invalid email.
+            [nomatch] => Passwords do not match.
+            [badpass] => Password does not fulfill requirements: at least 6 characters, including 1 capital letter and 1 digit.
+            [sameusername] => Username already in use.
+        )
+
+)
+
+05:39:53pm : New logger instance created.
+05:39:53pm : Array
+(
+    [reg-form] => Array
+        (
+            [register-fname] => jhgk
+            [register-lname] => jhkj
+            [register-email] => hgjk
+            [register-uname] => pai
+            [register-password] => jhkjh
+            [register-password-confirm] => jkjhgk
+        )
+
+    [reg-errors] => Array
+        (
+            [email] => Invalid email.
+            [nomatch] => Passwords do not match.
+            [badpass] => Password does not fulfill requirements: at least 6 characters, including 1 capital letter and 1 digit.
+            [sameusername] => Username already in use.
+        )
+
+)
+
+05:40:52pm : New logger instance created.
+05:40:52pm : Array
+(
+    [reg-form] => Array
+        (
+            [register-fname] => jhgk
+            [register-lname] => jhkj
+            [register-email] => hgjk
+            [register-uname] => pai
+            [register-password] => jhkjh
+            [register-password-confirm] => jkjhgk
+        )
+
+)
+
+05:42:02pm : New logger instance created.
+05:42:02pm : Array
+(
+    [reg-form] => Array
+        (
+            [register-fname] => jhgk
+            [register-lname] => jhkj
+            [register-email] => hgjk
+            [register-uname] => pai
+            [register-password] => jhkjh
+            [register-password-confirm] => jkjhgk
+        )
+
+)
+
+05:42:03pm : New logger instance created.
+05:42:03pm : Array
+(
+)
+
+05:42:03pm : New logger instance created.
+05:42:03pm : Array
+(
+)
+
+05:42:08pm : New logger instance created.
+05:42:08pm : New logger instance created.
+05:42:08pm : Successful connection made
+05:42:09pm : Successful connection made
+05:42:09pm : username not found: Array
+(
+)
+
+05:42:09pm : Errors:Array
+(
+    [reg-errors] => Array
+        (
+            [badpass] => Password does not fulfill requirements: at least 6 characters, including 1 capital letter and 1 digit.
+            [sameemail] => Email already in use.
+        )
+
+)
+
+05:42:09pm : New logger instance created.
+05:42:09pm : Array
+(
+    [reg-errors] => Array
+        (
+            [badpass] => Password does not fulfill requirements: at least 6 characters, including 1 capital letter and 1 digit.
+            [sameemail] => Email already in use.
+        )
+
+    [reg-form] => Array
+        (
+            [register-fname] => sdf
+            [register-lname] => sdf
+            [register-email] => paisley1000@gmail.com
+            [register-uname] => dsf
+            [register-password] => dsf
+            [register-password-confirm] => dsf
+        )
+
+)
+
+05:42:40pm : New logger instance created.
+05:42:40pm : Array
+(
+)
+
+05:42:45pm : New logger instance created.
+05:42:45pm : New logger instance created.
+05:42:45pm : Successful connection made
+05:42:45pm : Successful connection made
+05:42:45pm : username not found: Array
+(
+)
+
+05:42:45pm : Errors:Array
+(
+    [reg-errors] => Array
+        (
+            [nomatch] => Passwords do not match.
+            [badpass] => Password does not fulfill requirements: at least 6 characters, including 1 capital letter and 1 digit.
+            [sameemail] => Email already in use.
+        )
+
+)
+
+05:42:45pm : New logger instance created.
+05:42:45pm : Array
+(
+    [reg-errors] => Array
+        (
+            [nomatch] => Passwords do not match.
+            [badpass] => Password does not fulfill requirements: at least 6 characters, including 1 capital letter and 1 digit.
+            [sameemail] => Email already in use.
+        )
+
+    [reg-form] => Array
+        (
+            [register-fname] => hgjk
+            [register-lname] => ghfj
+            [register-email] => paisley1000@gmail.com
+            [register-uname] => hgjhgfj
+            [register-password] => hgfjh
+            [register-password-confirm] => hgjhgj
+        )
+
+)
+
+05:45:49pm : New logger instance created.
+05:45:49pm : Array
+(
+)
+
+05:46:09pm : New logger instance created.
+05:46:09pm : New logger instance created.
+05:46:10pm : Successful connection made
+05:46:11pm : Successful connection made
+05:46:11pm : username not found: Array
+(
+)
+
+05:46:11pm : Errors:Array
+(
+    [reg-errors] => Array
+        (
+            [sameemail] => Email already in use.
+        )
+
+)
+
+05:46:11pm : New logger instance created.
+05:46:11pm : Array
+(
+    [reg-errors] => Array
+        (
+            [sameemail] => Email already in use.
+        )
+
+    [reg-form] => Array
+        (
+            [register-fname] => paipai
+            [register-lname] => daidai
+            [register-email] => paisley1000@gmail.com
+            [register-uname] => goodolboi
+            [register-password] => 123Abc
+            [register-password-confirm] => 123Abc
+        )
+
+)
+
+05:46:29pm : New logger instance created.
+05:46:30pm : New logger instance created.
+07:13:41pm : New logger instance created.
+07:13:48pm : New logger instance created.
+07:13:52pm : New logger instance created.
+07:13:52pm : New logger instance created.
+07:13:52pm : Successful connection made
+07:13:52pm : New logger instance created.
+07:14:44pm : New logger instance created.
+07:14:46pm : New logger instance created.
+07:14:46pm : New logger instance created.
+07:14:46pm : Successful connection made
+07:14:46pm : New logger instance created.
