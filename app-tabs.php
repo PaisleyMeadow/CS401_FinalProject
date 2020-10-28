@@ -1,37 +1,86 @@
 <?php
+    require_once("Dao.php");
+
+    $dao = new Dao();
+
+    //if adding new workspace, do before creating tabs so the new one shows up too
+    if(isset($_GET["workspace-name"])){
+
+        //returns false if workspace name already exists
+        $check = $dao->addWorkspace($_GET["workspace-name"], $_GET["workspace-color"], $user->id);
+
+
+        if(!$check){    //if the workspace already exists, informs user and goes back to new workspace form
+            $_SESSION["workspace-errors"] = "Workspace already exists. Please try again.";
+
+            header("Location: workspace.php?new");
+            exit();
+        }
+        else{
+            $_GET["name"] = $_GET["workspace-name"];
+            $thisPage = "";
+        }
+    }
 
     //Get workspaces belonging to user 
     $workspaces = $dao->getWorkspaces($user->id); 
 
-    //make these workspace files
+    //make these workspaces php pages
     foreach($workspaces as $space){
-        $filepath = "bin/".$space["name"].".php";
-        $file = fopen($filepath, "a") or die ("Unable to access workspace.");
+        $filepath = $space["name"].".php";
+        $file = fopen("bin/".$filepath, "w") or die ("Unable to access workspace.");
+
+        //add elements for each workspace into page
+        $elements = $dao->getElements($space["id"]); 
+        $space["elements"] = $elements;
+
+        $st = "";
+        foreach($elements as $key => $el){
+            if($el != false){
+                foreach($el as $item){
+                    if($key == "images"){
+                        $st .= '<a href="'.$item["location"].'"><img class="" src="'.$item["location"].'"></a>'."\n";
+                    }
+                    else if($key == "notes"){
+                        $st .= '<textarea class="ubuntu-font">'.$item["content"].'</textarea>'."\n";
+                    }
+                }
+            }
+        }
+        fwrite($file, $st);
     }
 
 ?>
+ 
 <div id="app-container">
             <div id="tabs-container">
                 <a href="app.php" class="
                     <?php if($thisPage == "app") echo "active-tab" ?> workspace-tabs ubuntu-font">All</a>
                 <?php
                     if($workspaces != false){
-
                         foreach($workspaces as $space){
 
-                            echo '<a href=bin/'.$space["name"].'.php class="workspace-tabs ubuntu-font">'.$space["name"].'</a>';
+                            echo '<a href="workspace.php?name='.$space["name"];
+                            if(isset($_GET["name"]) && $space["name"] == $_GET["name"]){
+                                echo '" class="workspace-tabs ubuntu-font active-tab">'.$space["name"].'</a>';
+                            }
+                            else{
+                                echo '" class="workspace-tabs ubuntu-font">'.$space["name"].'</a>';
+                            }
                         }
 
                     }
                 ?>
-                
-                <!-- <a href="workspace1.php" class="
-                    <?php if($thisPage  == "workspace1") echo "active-tab" ?> 
-                    workspace-tabs ubuntu-font">Workspace1</a>
-                <a href="workspace2.php" class="
-                    <?php if($thisPage  == "workspace2") echo "active-tab" ?> 
-                    workspace-tabs ubuntu-font">Workspace2</a> -->
 
-
-                <div id="plus-tab" class="workspace-tabs ubuntu-font">+</div>
+                <a href="workspace.php?new=true" id="plus-tab" 
+                    <?php
+                        if($thisPage == "add"){
+                            echo 'class="workspace-tabs ubuntu-font active-tab"';
+                        }
+                        else{
+                            echo 'class="workspace-tabs ubuntu-font"';
+                        }
+                    ?>
+                >+</a>
             </div>
+           

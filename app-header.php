@@ -1,10 +1,7 @@
 <?php
     session_start();
     require_once("Logger.php");
-    require_once("Dao.php");
     require_once("User.php");
-
-    $dao = new Dao();
 
     $logger = new Logger();
 
@@ -26,6 +23,7 @@
 <html>
     <head>
         <title>Muse</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
 		<link rel="stylesheet" type="text/css" href="app.css">
         <link rel="icon" type="image/png" href="images/favicon.png">
 

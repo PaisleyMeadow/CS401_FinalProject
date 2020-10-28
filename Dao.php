@@ -138,7 +138,172 @@
             }
         }
 
-        // public function 
+        public function getElements($wid){  //get all elements belong to that workspace
+
+            $elements = array();
+
+            $elements["images"] = $this->getImages($wid);
+            $elements["notes"] = $this->getNotes($wid);
+            $elements["videos"] = $this->getVideos($wid);
+
+            return $elements;
+        }
+
+        public function getImages($wid){
+            return $this->get("images", "workspace_id", $wid);
+        }
+
+        public function getNotes($wid){
+            return $this->get("notes", "workspace_id", $wid);
+        }
+
+        public function getVideos($wid){
+            return $this->get("videos", "workspace_id", $wid);
+        }
+
+        //generic select * from table, takes in table name, column name to match, and data to look for
+        public function get($table, $column, $data){  
+            
+            $conn = $this->getConnection();
+
+            $get = "SELECT * FROM ".$table." WHERE ".$column." = ?"; 
+
+            $query = $conn->prepare($get);
+            $query->bindParam(1, $data);
+
+            $query->execute(); 
+
+            $result = $query->fetchAll(); 
+            if(count($result) > 0){
+                return $result;
+            }
+            else{
+                return false;
+            }
+        }
+
+        //adds new workspace
+        public function addWorkspace($name, $color, $uid){
+
+            //validates name doesn't already exist in table 
+            if($this->validateWorkspace($name, $uid)){
+                return false;
+            }
+
+            $conn = $this->getConnection();
+
+            if($color == ""){
+                $color = "fdf0d5";
+            }
+        
+            $insert = "INSERT INTO workspaces
+                (name, color, user_id)
+                VALUES (?, ?, ?)";
+        
+            $query = $conn->prepare($insert);
+           
+            //bind user data
+            $query->bindParam(1, $name);
+            $query->bindParam(2, $color);
+            $query->bindParam(3, $uid);
+        
+            $check = $query->execute();
+
+            $this->logger->addLog("Query Errors:".$query->errorCode());
+
+            return $check;
+        }
+
+        //validates workspace name is unique (true if exists)
+        public function validateWorkspace($name, $uid){
+            
+            $conn = $this->getConnection();
+
+            $get = "SELECT * FROM workspaces WHERE name = ? AND user_id = ?"; 
+
+            $query = $conn->prepare($get);
+            $query->bindParam(1, $name);
+            $query->bindParam(2, $uid);
+
+            $query->execute(); 
+
+            $result = $query->fetchAll(); 
+            if(count($result) > 0){
+                return true;
+            }
+            else{
+                return false;
+            }
+        }
+
+        public function addImage($path, $url, $wname, $uid){
+
+            //first, need to get workspace id 
+            $wobj = $this->getWorkspaceId($wname, $uid); 
+            $id = $wobj[0]["id"];
+
+            $conn = $this->getConnection();
+
+            $insert = "INSERT INTO images
+                (location, url, workspace_id)
+                VALUES (?, ?, ?)";
+        
+            $query = $conn->prepare($insert);
+           
+            //bind user data
+            $query->bindParam(1, $path);
+            $query->bindParam(2, $url);
+            $query->bindParam(3, $id);
+        
+            $check = $query->execute();
+
+            $this->logger->addLog("Query Errors:".$query->errorCode());
+        }
+
+        public function addNote($color, $wname, $uid){
+
+            //first, need to get workspace id 
+            $wobj = $this->getWorkspaceId($wname, $uid); 
+            $id = $wobj[0]["id"];
+
+            $conn = $this->getConnection();
+
+            $insert = "INSERT INTO notes
+                (color, workspace_id)
+                VALUES (?, ?)";
+        
+            $query = $conn->prepare($insert);
+           
+            //bind user data
+            $query->bindParam(1, $color);
+            $query->bindParam(2, $id);
+        
+            $check = $query->execute();
+
+            $this->logger->addLog("Query Errors:".$query->errorCode());
+        }
+
+        public function getWorkspaceId($name, $uid){
+
+            $conn = $this->getConnection();
+
+            $get = "SELECT * FROM workspaces WHERE name = ? AND user_id = ?"; 
+
+            $query = $conn->prepare($get);
+            $query->bindParam(1, $name);
+            $query->bindParam(2, $uid);
+
+            $query->execute(); 
+
+            $result = $query->fetchAll(); 
+            if(count($result) > 0){
+                return $result;
+            }
+            else{
+                return false;
+            }
+
+        }
     }
 
 

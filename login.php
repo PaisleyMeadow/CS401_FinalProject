@@ -9,6 +9,7 @@
 
 	if(isset($_SESSION["login-form"])){
 		$uname_preset = $_SESSION["login-form"]["login-uname"];
+		unset($_SESSION["login-form"]);
 	}
 ?>
     <div id="login-container">
@@ -19,6 +20,7 @@
 					<?php
 						if(isset($_SESSION["new_user"])){
 							echo "Registration Successful.";
+							unset($_SESSION["new_user"]);
 						}
 						else{
 							echo "Welcome Back.";

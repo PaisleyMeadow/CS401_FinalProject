@@ -129,6 +129,7 @@ body{
 
 /* individual workspace */
 .workspace-container{
+    position: relative;
     background-color: #272727;
     max-width: 100%;
     max-height: 100%;
@@ -190,6 +191,29 @@ body{
 }
 .workspace textarea:focus{
     outline-color: #8685ef;
+}
+
+#add-element{
+    position: absolute;
+    bottom: 40;
+    right: 60;
+
+    font-size: 4em;
+    background-color: #cbef43;
+    color: #8685ef;
+    padding: 1% 2% 1% 2%;
+    border-radius: .5em;
+}
+#add-element:hover{
+    color: #e41c34;
+}
+
+/* adding new element elements */
+#new-element-container{
+    position: fixed;
+    width: 40%;
+    height: 50%;
+    background-color: #cbef43;
 }
 
 /* sidebar menu */
