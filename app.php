@@ -5,11 +5,11 @@
 ?>
             <div id="workspace-icons-container">
                 <?php 
-                    foreach($workspaces as $space){
-                        echo '<a href="workspace.php?name='.$space["name"].'" class="workspace-icon ubuntu-font">'.
-                                $space["name"].'</a>';
-                        // foreach($space["ele"])
-
+                    if(isset($workspaces)){
+                        foreach($workspaces as $space){
+                            echo '<a href="workspace.php?name='.$space["name"].'" class="workspace-icon ubuntu-font">'.
+                                    $space["name"].'</a>';
+                        }
                     }
                     //^implement later for showing preview elements in workspace squares >>v
                     // <a href="workspace.php" class="workspace-icon ubuntu-font">

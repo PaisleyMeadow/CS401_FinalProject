@@ -19,9 +19,4 @@ else{
 
 //uploads file location to database
 $dao->addImage($src, false, $_SESSION["current-space"], $user->id);
-
-header("Location: workspace.php?name=".$_SESSION["current-space"]);
-unset($_SESSION["current-space"]);
-exit();
-
 ?>

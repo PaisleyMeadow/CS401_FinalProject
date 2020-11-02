@@ -6,9 +6,10 @@
                     echo "class=login-error";
                 }
             ?>
-        placeholder="Name" required>
+        placeholder="Name" pattern='^[a-zA-Z0-9]*$' required>
         <input type="text" name="workspace-color" value="fdf0d5" placeholder="Color">
-        <input type="submit" value="Create New">
+        <input type="submit" value="Create New"><br>
+        *Workspace names may only contain letters and numbers.
     </form>
 </div> 
 

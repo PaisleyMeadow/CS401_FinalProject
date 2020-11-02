@@ -1,0 +1,447 @@
+12:12:49am : New logger instance created.
+12:12:49am : New logger instance created.
+12:12:54am : New logger instance created.
+01:37:44am : New logger instance created.
+01:37:45am : New logger instance created.
+01:37:51am : New logger instance created.
+01:37:51am : New logger instance created.
+01:37:51am : Successful connection made
+01:37:52am : New logger instance created.
+01:37:52am : New logger instance created.
+01:37:52am : Successful connection made
+01:37:52am : Successful connection made
+01:37:53am : Successful connection made
+01:37:53am : Successful connection made
+01:37:53am : Successful connection made
+01:37:54am : Successful connection made
+01:37:54am : Successful connection made
+01:37:54am : Successful connection made
+01:37:55am : Successful connection made
+01:37:55am : Successful connection made
+01:37:56am : Successful connection made
+01:37:56am : Successful connection made
+01:37:56am : Successful connection made
+01:38:07am : New logger instance created.
+01:38:08am : New logger instance created.
+01:38:08am : Array
+(
+    [login-errors] => Array
+        (
+        )
+
+    [authenticated] => 1
+    [user] => O:4:"User":6:{s:2:"id";s:2:"31";s:5:"fname";s:4:"Test";s:5:"lname";s:4:"Last";s:5:"email";s:7:"a@g.com";s:8:"username";s:3:"pai";s:5:"color";N;}
+)
+
+01:38:40am : New logger instance created.
+01:38:40am : New logger instance created.
+01:38:40am : Successful connection made
+01:38:41am : Successful connection made
+01:38:41am : username not found: Array
+(
+)
+
+01:38:41am : Errors:Array
+(
+    [login-errors] => Array
+        (
+        )
+
+    [authenticated] => 1
+    [user] => O:4:"User":6:{s:2:"id";s:2:"31";s:5:"fname";s:4:"Test";s:5:"lname";s:4:"Last";s:5:"email";s:7:"a@g.com";s:8:"username";s:3:"pai";s:5:"color";N;}
+    [reg-errors] => Array
+        (
+        )
+
+)
+
+01:38:41am : New logger instance created.
+01:38:53am : New logger instance created.
+01:38:53am : New logger instance created.
+01:38:54am : Successful connection made
+01:38:54am : New logger instance created.
+01:39:35am : New logger instance created.
+01:39:37am : New logger instance created.
+01:39:37am : Array
+(
+    [authenticated] => 1
+    [user] => O:4:"User":6:{s:2:"id";s:2:"31";s:5:"fname";s:4:"Test";s:5:"lname";s:4:"Last";s:5:"email";s:7:"a@g.com";s:8:"username";s:3:"pai";s:5:"color";N;}
+    [reg-errors] => Array
+        (
+        )
+
+)
+
+01:40:14am : New logger instance created.
+01:40:14am : New logger instance created.
+01:40:14am : Successful connection made
+01:40:15am : Successful connection made
+01:40:15am : username not found: Array
+(
+)
+
+01:40:15am : Errors:Array
+(
+    [authenticated] => 1
+    [user] => O:4:"User":6:{s:2:"id";s:2:"31";s:5:"fname";s:4:"Test";s:5:"lname";s:4:"Last";s:5:"email";s:7:"a@g.com";s:8:"username";s:3:"pai";s:5:"color";N;}
+    [reg-errors] => Array
+        (
+        )
+
+)
+
+01:40:15am : New logger instance created.
+01:40:23am : New logger instance created.
+01:40:23am : New logger instance created.
+01:40:23am : Successful connection made
+01:40:23am : New logger instance created.
+01:45:29am : New logger instance created.
+01:45:30am : New logger instance created.
+01:45:30am : Array
+(
+    [authenticated] => 1
+    [user] => O:4:"User":6:{s:2:"id";s:2:"31";s:5:"fname";s:4:"Test";s:5:"lname";s:4:"Last";s:5:"email";s:7:"a@g.com";s:8:"username";s:3:"pai";s:5:"color";N;}
+    [reg-errors] => Array
+        (
+        )
+
+)
+
+01:45:49am : New logger instance created.
+01:45:49am : New logger instance created.
+01:45:49am : Successful connection made
+01:45:49am : Successful connection made
+01:45:49am : username not found: Array
+(
+)
+
+01:45:49am : Errors:Array
+(
+    [authenticated] => 1
+    [user] => O:4:"User":6:{s:2:"id";s:2:"31";s:5:"fname";s:4:"Test";s:5:"lname";s:4:"Last";s:5:"email";s:7:"a@g.com";s:8:"username";s:3:"pai";s:5:"color";N;}
+    [reg-errors] => Array
+        (
+        )
+
+)
+
+01:45:50am : Successful connection made
+01:45:50am : Query Errors:00000
+01:45:50am : New logger instance created.
+01:46:20am : New logger instance created.
+01:46:20am : New logger instance created.
+01:46:20am : Successful connection made
+01:46:20am : New logger instance created.
+01:46:20am : New logger instance created.
+01:46:21am : Successful connection made
+01:47:40am : New logger instance created.
+01:47:40am : New logger instance created.
+01:47:40am : Successful connection made
+01:47:45am : New logger instance created.
+01:47:45am : New logger instance created.
+01:47:45am : Successful connection made
+01:47:47am : New logger instance created.
+01:47:47am : New logger instance created.
+01:47:47am : Successful connection made
+01:48:02am : New logger instance created.
+01:48:02am : Successful connection made
+01:48:12am : New logger instance created.
+01:48:12am : New logger instance created.
+01:48:12am : Successful connection made
+01:48:20am : New logger instance created.
+01:48:20am : New logger instance created.
+01:48:20am : Successful connection made
+01:48:30am : New logger instance created.
+01:48:30am : New logger instance created.
+01:48:30am : Successful connection made
+01:49:02am : New logger instance created.
+01:49:02am : New logger instance created.
+01:49:02am : Successful connection made
+01:50:16am : New logger instance created.
+01:50:16am : New logger instance created.
+01:50:16am : Successful connection made
+01:51:03am : New logger instance created.
+01:51:03am : New logger instance created.
+01:51:03am : Successful connection made
+01:51:05am : New logger instance created.
+01:51:05am : New logger instance created.
+01:51:05am : Successful connection made
+01:51:18am : New logger instance created.
+01:51:18am : New logger instance created.
+01:51:19am : Successful connection made
+01:51:19am : Successful connection made
+01:51:19am : Query Errors:00000
+01:51:19am : Successful connection made
+01:51:20am : Successful connection made
+01:51:20am : Successful connection made
+01:51:20am : Successful connection made
+01:51:25am : New logger instance created.
+01:51:25am : New logger instance created.
+01:51:25am : Successful connection made
+01:51:26am : Successful connection made
+01:51:26am : Successful connection made
+01:51:26am : Successful connection made
+01:51:30am : New logger instance created.
+01:51:30am : New logger instance created.
+01:51:30am : Adding note.
+01:51:30am : Successful connection made
+01:51:30am : Successful connection made
+01:51:30am : Query Errors:00000
+01:53:10am : New logger instance created.
+01:53:10am : New logger instance created.
+01:53:10am : Adding note.
+01:53:10am : Successful connection made
+01:53:10am : Successful connection made
+01:53:11am : Query Errors:00000
+01:53:11am : New logger instance created.
+01:53:11am : New logger instance created.
+01:53:11am : Successful connection made
+01:53:11am : Successful connection made
+01:53:12am : Successful connection made
+01:53:12am : Successful connection made
+01:53:47am : New logger instance created.
+01:53:47am : New logger instance created.
+01:53:47am : Successful connection made
+01:53:48am : Successful connection made
+01:53:48am : Successful connection made
+01:53:48am : Successful connection made
+01:54:24am : New logger instance created.
+01:54:24am : New logger instance created.
+01:54:24am : Adding image.
+01:54:24am : Successful connection made
+01:54:24am : Successful connection made
+01:54:24am : Query Errors:00000
+01:54:24am : New logger instance created.
+01:54:24am : New logger instance created.
+01:54:25am : Successful connection made
+01:54:25am : Successful connection made
+01:54:25am : Successful connection made
+01:54:26am : Successful connection made
+01:54:29am : New logger instance created.
+01:54:29am : New logger instance created.
+01:54:29am : Successful connection made
+01:54:30am : Successful connection made
+01:54:30am : Successful connection made
+01:54:30am : Successful connection made
+01:55:08am : New logger instance created.
+01:55:08am : New logger instance created.
+01:55:08am : Adding image.
+01:55:08am : Successful connection made
+01:55:09am : Successful connection made
+01:55:09am : Query Errors:00000
+01:55:09am : New logger instance created.
+01:55:09am : New logger instance created.
+01:55:09am : Successful connection made
+01:55:09am : Successful connection made
+01:55:10am : Successful connection made
+01:55:10am : Successful connection made
+01:56:01am : New logger instance created.
+01:56:01am : New logger instance created.
+01:56:01am : Successful connection made
+01:56:01am : Successful connection made
+01:56:02am : Successful connection made
+01:56:02am : Successful connection made
+01:56:10am : New logger instance created.
+01:56:10am : New logger instance created.
+01:56:10am : Adding image.
+01:56:10am : New logger instance created.
+01:56:10am : New logger instance created.
+01:56:11am : Successful connection made
+01:56:11am : Successful connection made
+01:56:11am : Successful connection made
+01:56:12am : Successful connection made
+01:56:31am : New logger instance created.
+01:56:31am : New logger instance created.
+01:56:31am : Adding note.
+01:56:31am : Successful connection made
+01:56:32am : Successful connection made
+01:56:32am : Query Errors:00000
+01:56:32am : New logger instance created.
+01:56:32am : New logger instance created.
+01:56:32am : Successful connection made
+01:56:32am : Successful connection made
+01:56:33am : Successful connection made
+01:56:33am : Successful connection made
+01:56:41am : New logger instance created.
+01:56:41am : New logger instance created.
+01:56:41am : Successful connection made
+01:56:41am : Successful connection made
+01:56:42am : Successful connection made
+01:56:42am : Successful connection made
+01:56:44am : New logger instance created.
+01:56:44am : New logger instance created.
+01:56:44am : Successful connection made
+01:56:44am : Successful connection made
+01:56:45am : Successful connection made
+01:56:45am : Successful connection made
+01:56:49am : New logger instance created.
+01:56:51am : New logger instance created.
+01:56:51am : Array
+(
+    [authenticated] => 1
+    [user] => O:4:"User":6:{s:2:"id";s:3:"111";s:5:"fname";s:3:"pai";s:5:"lname";s:3:"dav";s:5:"email";s:11:"pai@dav.com";s:8:"username";s:6:"paipai";s:5:"color";N;}
+    [reg-errors] => Array
+        (
+        )
+
+    [login-errors] => Array
+        (
+        )
+
+)
+
+01:57:02am : New logger instance created.
+01:57:02am : New logger instance created.
+01:57:02am : Successful connection made
+01:57:02am : Successful connection made
+01:57:02am : username found
+01:57:02am : Errors:Array
+(
+    [authenticated] => 1
+    [user] => O:4:"User":6:{s:2:"id";s:3:"111";s:5:"fname";s:3:"pai";s:5:"lname";s:3:"dav";s:5:"email";s:11:"pai@dav.com";s:8:"username";s:6:"paipai";s:5:"color";N;}
+    [reg-errors] => Array
+        (
+            [email] => Invalid email.
+            [nomatch] => Passwords do not match.
+            [badpass] => Password does not fulfill requirements: at least 6 characters, including 1 capital letter and 1 digit.
+            [sameusername] => Username already in use.
+        )
+
+    [login-errors] => Array
+        (
+        )
+
+)
+
+01:57:02am : New logger instance created.
+01:57:02am : Array
+(
+    [authenticated] => 1
+    [user] => O:4:"User":6:{s:2:"id";s:3:"111";s:5:"fname";s:3:"pai";s:5:"lname";s:3:"dav";s:5:"email";s:11:"pai@dav.com";s:8:"username";s:6:"paipai";s:5:"color";N;}
+    [reg-errors] => Array
+        (
+            [email] => Invalid email.
+            [nomatch] => Passwords do not match.
+            [badpass] => Password does not fulfill requirements: at least 6 characters, including 1 capital letter and 1 digit.
+            [sameusername] => Username already in use.
+        )
+
+    [login-errors] => Array
+        (
+        )
+
+    [reg-form] => Array
+        (
+            [register-fname] => nbmnbm
+            [register-lname] => nbmnbm
+            [register-email] => nbm
+            [register-uname] => pai
+            [register-password] => dfdsf
+            [register-password-confirm] => dsfsdfdsafdsaf
+        )
+
+)
+
+01:57:13am : New logger instance created.
+01:57:13am : New logger instance created.
+01:57:14am : Successful connection made
+01:57:14am : Successful connection made
+01:57:14am : username found
+01:57:14am : Errors:Array
+(
+    [authenticated] => 1
+    [user] => O:4:"User":6:{s:2:"id";s:3:"111";s:5:"fname";s:3:"pai";s:5:"lname";s:3:"dav";s:5:"email";s:11:"pai@dav.com";s:8:"username";s:6:"paipai";s:5:"color";N;}
+    [login-errors] => Array
+        (
+        )
+
+    [reg-errors] => Array
+        (
+            [nomatch] => Passwords do not match.
+            [badpass] => Password does not fulfill requirements: at least 6 characters, including 1 capital letter and 1 digit.
+            [sameemail] => Email already in use.
+            [sameusername] => Username already in use.
+        )
+
+)
+
+01:57:14am : New logger instance created.
+01:57:14am : Array
+(
+    [authenticated] => 1
+    [user] => O:4:"User":6:{s:2:"id";s:3:"111";s:5:"fname";s:3:"pai";s:5:"lname";s:3:"dav";s:5:"email";s:11:"pai@dav.com";s:8:"username";s:6:"paipai";s:5:"color";N;}
+    [login-errors] => Array
+        (
+        )
+
+    [reg-errors] => Array
+        (
+            [nomatch] => Passwords do not match.
+            [badpass] => Password does not fulfill requirements: at least 6 characters, including 1 capital letter and 1 digit.
+            [sameemail] => Email already in use.
+            [sameusername] => Username already in use.
+        )
+
+    [reg-form] => Array
+        (
+            [register-fname] => nbmnbm
+            [register-lname] => nbmnbm
+            [register-email] => paisley1000@gmail.com
+            [register-uname] => pai
+            [register-password] => gfhjhgfj
+            [register-password-confirm] => hgjhgf
+        )
+
+)
+
+01:57:19am : New logger instance created.
+01:57:25am : New logger instance created.
+01:57:27am : New logger instance created.
+02:06:26am : New logger instance created.
+02:06:27am : New logger instance created.
+02:14:54am : New logger instance created.
+02:14:54am : New logger instance created.
+02:14:54am : Successful connection made
+02:14:55am : Successful connection made
+02:14:55am : Successful connection made
+02:14:55am : Successful connection made
+02:15:19am : New logger instance created.
+02:15:19am : New logger instance created.
+02:15:28am : Successful connection made
+02:15:39am : Successful connection made
+02:15:41am : Successful connection made
+02:15:49am : Successful connection made
+02:15:50am : New logger instance created.
+02:15:57am : New logger instance created.
+02:15:57am : New logger instance created.
+02:15:57am : Successful connection made
+02:15:58am : Successful connection made
+02:15:58am : Successful connection made
+02:15:59am : Successful connection made
+02:16:08am : New logger instance created.
+02:16:08am : Error getting user variable.
+02:16:08am : New logger instance created.
+02:21:40am : New logger instance created.
+02:22:07am : New logger instance created.
+02:22:15am : New logger instance created.
+02:22:15am : Error getting user variable.
+02:22:15am : New logger instance created.
+02:23:27am : New logger instance created.
+02:23:27am : Successful connection made
+02:23:27am : New logger instance created.
+02:24:45am : New logger instance created.
+02:24:45am : New logger instance created.
+02:24:45am : Adding note.
+02:24:46am : Successful connection made
+02:24:46am : Successful connection made
+02:24:46am : Query Errors:00000
+02:24:46am : New logger instance created.
+02:25:59am : New logger instance created.
+02:25:59am : New logger instance created.
+02:26:00am : Successful connection made
+02:26:00am : New logger instance created.
+02:26:36am : New logger instance created.
+02:26:37am : New logger instance created.
+02:26:37am : New logger instance created.
+02:26:37am : New logger instance created.
+02:26:42am : New logger instance created.

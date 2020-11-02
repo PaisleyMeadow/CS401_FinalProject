@@ -49,7 +49,7 @@
                 name='register-email' placeholder='Email' size='255' required>
                 <input label="text"
                         <?php
-                            if(isset($_SESSION["reg-errors"]["sameusername"])){
+                            if(isset($_SESSION["reg-errors"]["sameusername"]) || isset($_SESSION["reg-errors"]["badusername"])){
                                 echo 'class="ubuntu-font login-form-input login-error"';
                             }
                             else{

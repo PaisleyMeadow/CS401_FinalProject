@@ -1,5 +1,6 @@
 <?php
     session_start();
+    require_once("authenticated.php");
     require_once("Logger.php");
     require_once("User.php");
 

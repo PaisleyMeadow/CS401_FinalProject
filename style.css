@@ -217,14 +217,13 @@ a{
     padding: 1.5vw;
 }
 #about-box p{
-    font-size: 1.1em;
+    font-size: 2em;
     color: #fdf0d5;
     text-indent: 4vw;
 }
 #about-box img{
     display: inline-block;
-    float: right;
-    width: 20%;
+    width: 45%;
     margin: 2vw;
 }
 

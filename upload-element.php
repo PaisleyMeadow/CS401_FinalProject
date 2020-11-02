@@ -1,5 +1,6 @@
 <?php
     session_start();
+    require_once("authenticated.php");
 
     require_once("User.php");
     $user = unserialize($_SESSION["user"]);
@@ -16,5 +17,10 @@
     else{
         require_once("upload-note.php");
     }
+
+    header("Location: workspace.php?name=".$_SESSION["current-space"]);
+    unset($_SESSION["current-space"]);
+    exit();
+
 
 ?>

@@ -2,10 +2,6 @@
 	$thisPage ="login";
 	require_once("header.php");
 	
-	// if(isset($_SESSION["authenticated"]) && $_SESSION["authenticated"] == true){
-	// 	header("Location: app.php");
-    //     exit();
-	// }
 
 	if(isset($_SESSION["login-form"])){
 		$uname_preset = $_SESSION["login-form"]["login-uname"];
@@ -40,7 +36,7 @@
 				</form>
 				<div class="errors-container">
 						<?php
-							if(isset($_SESSION["login-errors"])){
+							if(isset($_SESSION["login-errors"]) && !empty($_SESSION["login-errors"])){ 
 								echo '<div class="errors ubuntu-font">'.$_SESSION["login-errors"].'</div><br>';
 								unset($_SESSION["login-errors"]);
 							}

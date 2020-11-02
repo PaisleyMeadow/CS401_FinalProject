@@ -1,4 +1,5 @@
 <?php
+    require_once("authenticated.php");
     require_once("Dao.php");
 
     $dao = new Dao();
@@ -26,28 +27,30 @@
     $workspaces = $dao->getWorkspaces($user->id); 
 
     //make these workspaces php pages
-    foreach($workspaces as $space){
-        $filepath = $space["name"].".php";
-        $file = fopen("bin/".$filepath, "w") or die ("Unable to access workspace.");
+    if($workspaces != false){
+        foreach($workspaces as $space){
+            $filepath = $space["name"].".php";
+            $file = fopen("bin/".$filepath, "w") or die ("Unable to access workspace.");
 
-        //add elements for each workspace into page
-        $elements = $dao->getElements($space["id"]); 
-        $space["elements"] = $elements;
+            //add elements for each workspace into page
+            $elements = $dao->getElements($space["id"]); 
+            $space["elements"] = $elements;
 
-        $st = "";
-        foreach($elements as $key => $el){
-            if($el != false){
-                foreach($el as $item){
-                    if($key == "images"){
-                        $st .= '<a href="'.$item["location"].'"><img class="" src="'.$item["location"].'"></a>'."\n";
-                    }
-                    else if($key == "notes"){
-                        $st .= '<textarea class="ubuntu-font">'.$item["content"].'</textarea>'."\n";
+            $st = "";
+            foreach($elements as $key => $el){
+                if($el != false){
+                    foreach($el as $item){
+                        if($key == "images"){
+                            $st .= '<a href="'.$item["location"].'"><img class="" src="'.$item["location"].'"></a>'."\n";
+                        }
+                        else if($key == "notes"){
+                            $st .= '<textarea class="ubuntu-font">'.htmlspecialchars($item["content"]).'</textarea>'."\n";
+                        }
                     }
                 }
             }
+            fwrite($file, $st);
         }
-        fwrite($file, $st);
     }
 
 ?>
@@ -60,12 +63,12 @@
                     if($workspaces != false){
                         foreach($workspaces as $space){
 
-                            echo '<a href="workspace.php?name='.$space["name"];
+                            echo '<a href="workspace.php?name='.htmlspecialchars($space["name"]);
                             if(isset($_GET["name"]) && $space["name"] == $_GET["name"]){
-                                echo '" class="workspace-tabs ubuntu-font active-tab">'.$space["name"].'</a>';
+                                echo '" class="workspace-tabs ubuntu-font active-tab">'.htmlspecialchars($space["name"]).'</a>';
                             }
                             else{
-                                echo '" class="workspace-tabs ubuntu-font">'.$space["name"].'</a>';
+                                echo '" class="workspace-tabs ubuntu-font">'.htmlspecialchars($space["name"]).'</a>';
                             }
                         }
 
