@@ -16,7 +16,6 @@
         public function getConnection(){
             try{
                 $conn = new PDO("mysql:host={$this->host};dbname={$this->db}", $this->user, $this->pass);
-                $this->logger->addLog("Successful connection made");
                 return $conn;
             }
             catch(Exception $e){
@@ -49,8 +48,6 @@
 
             $check = $query->execute();
 
-            $this->logger->addLog("Query Errors:".$query->errorCode());
-
             return $check;
 
         }
@@ -69,7 +66,7 @@
             if(count($query->fetchAll()) > 0){ $this->logger->addLog("username found");
                 return true; 
             }
-            $this->logger->addLog("username not found: ".print_r($query->fetchAll(), true));
+
             return false;
         }
 
@@ -209,8 +206,6 @@
         
             $check = $query->execute();
 
-            $this->logger->addLog("Query Errors:".$query->errorCode());
-
             return $check;
         }
 
@@ -256,8 +251,6 @@
             $query->bindParam(3, $id);
         
             $check = $query->execute();
-
-            $this->logger->addLog("Query Errors:".$query->errorCode());
         }
 
         public function addNote($color, $wname, $uid){
@@ -279,11 +272,50 @@
             $query->bindParam(2, $id);
         
             $check = $query->execute();
-
-            $this->logger->addLog("Query Errors:".$query->errorCode());
         }
 
-        public function getWorkspaceId($name, $uid){
+        //adds content of note from user input
+        public function addNoteInput($content, $id){
+
+            $conn = $this->getConnection();
+
+            $update= "UPDATE notes SET content = ? WHERE id = ?";
+
+            $query = $conn->prepare($update);
+            $query->bindParam(1, $content);
+            $query->bindParam(2, $id);
+
+            $query->execute();
+        }
+
+        //delete note
+        public function deleteNote($id){
+
+            $conn = $this->getConnection();
+
+            $del = "DELETE FROM notes WHERE id = ?";
+
+            $query = $conn->prepare($del);
+            $query->bindParam(1, $id);
+
+            $query->execute();
+        }
+
+        //delete image
+        public function deleteImage($id){
+
+            $conn = $this->getConnection();
+
+            $del = "DELETE FROM images WHERE id = ?";
+
+            $query = $conn->prepare($del);
+            $query->bindParam(1, $id);
+
+            $query->execute();
+        }
+
+        //get workspace id for add image and add note
+        private function getWorkspaceId($name, $uid){
 
             $conn = $this->getConnection();
 
@@ -304,6 +336,86 @@
             }
 
         }
+
+        //saving new color of workspace
+        public function saveWorkspaceColor($color, $wname, $uid){
+
+            $conn = $this->getConnection();
+
+            //first, need to get workspace id 
+            $wobj = $this->getWorkspaceId($wname, $uid); 
+            $id = $wobj[0]["id"];
+
+            $update = "UPDATE workspaces SET color = ? WHERE id = ?";
+
+            $query = $conn->prepare($update);
+            $query->bindParam(1, $color);
+            $query->bindParam(2, $id);
+
+            try{
+                $query->execute();
+            }
+            catch(PDOException $e){
+                $this->logger->addLog("Error updating workspace color: ".$e->getMessage());
+            }
+        }
+
+        //deleting workspace
+        public function deleteWorkspace($wname, $uid){ 
+            $conn = $this->getConnection();
+
+            //first, need to get workspace id 
+            $wobj = $this->getWorkspaceId($wname, $uid); 
+            $id = $wobj[0]["id"];
+
+            $del = "DELETE FROM workspaces WHERE id = ?";
+
+            $query = $conn->prepare($del);
+            $query->bindParam(1, $id);
+            
+            if(!$query->execute()){
+                $this->logger->addLog("Unable to delete workspace: ".print_r($query->errorInfo(), true));
+            }
+        }
+
+        //update workspace name
+        public function updateWorkspaceName($newName, $wname, $uid){
+            $conn = $this->getConnection();
+
+            //first, need to get workspace id 
+            $wobj = $this->getWorkspaceId($wname, $uid); 
+            $id = $wobj[0]["id"];
+
+            $update = "UPDATE workspaces SET name = ? WHERE id = ?";
+
+            $query = $conn->prepare($update);
+            $query->bindParam(1, $newName);
+            $query->bindParam(2, $id);
+            
+            if(!$query->execute()){
+                $this->logger->addLog("Unable to update workspace name: ".print_r($query->errorInfo(), true));
+            }
+        }
+
+        //delete user
+        public function deleteUser($uid){
+            $conn = $this->getConnection();
+
+            //listen, I know this is bad but uhhh....idc. 
+            $conn->query("SET FOREIGN_KEY_CHECKS=0");
+
+            $del = "DELETE FROM users WHERE id = ?";
+
+            $query = $conn->prepare($del);
+            $query->bindParam(1, $uid);
+
+            if(!$query->execute()){
+                $this->logger->addLog("Unable to delete user: ".print_r($query->errorInfo(), true));
+            }
+
+            $conn->query("SET FOREIGN_KEY_CHECKS=1");
+        }
+
     }
 
 

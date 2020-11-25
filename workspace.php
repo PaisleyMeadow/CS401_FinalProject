@@ -1,37 +1,24 @@
 <?php
+    require_once("app-header.php");
     if(isset($_GET["name"])){
         $thisPage = $_GET["name"];
     }
     else{
         $thisPage = "add";
     }
-    require_once("app-header.php");
     require_once("app-tabs.php");
-?>
+    
+    require_once("bin/".$_GET["name"].".php");
+    
+    require_once("create-new-space-form.php");
 
-<div class="workspace-container"> <!-- yes, this is a div for aesthetic (workspace border)-->
-    <div class="workspace-border-container">
-        <div class="workspace">
-            <?php 
-                if(isset($_GET["add"])){
-                    $_SESSION["current-space"] = $_GET["name"];
-                    require_once("add-new-element-form.php");   //form for adding new element
-                }
-
-                if(isset($_GET["new"])){
-                    require_once("create-new-space-form.php");
-                }
-                else{
-                    require_once("bin/".$_GET["name"].".php");
-                    echo '<a id="add-element" class="ubuntu-font" href="workspace.php?name='.$_GET["name"].'&add=true">+</a>';
-                }
-
-            ?>
-        </div>
-    </div>
-</div>
-
-<?php
+    require_once("add-new-element-form.php");   
+    
     require_once("sidebar.php");
+
+    echo '<div id="delete-element"class="element-button">-</div><div id="open-add-element" class="ubuntu-font element-button">+</div>';
+
     require_once("app-footer.php");
 ?>
+
+<script src="js/app.js"></script>

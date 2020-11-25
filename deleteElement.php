@@ -11,14 +11,16 @@
     require_once("Logger.php");
     $logger = new Logger();
 
-    if($_POST["type"] == "image"){
-        require_once("upload-image.php");
+    
+
+    if($_POST["isImage"] == "true"){
+        $dao->deleteImage($_POST["id"]);
     }
     else{
-        require_once("upload-note.php");
+        $dao->deleteNote($_POST["id"]);
     }
 
     $_SESSION["change"] = true;
-    
+
     exit();
 ?>

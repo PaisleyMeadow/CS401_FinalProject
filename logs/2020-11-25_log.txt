@@ -1,0 +1,502 @@
+12:45:18am : Array
+(
+    [login-errors] => Array
+        (
+        )
+
+    [authenticated] => 1
+    [user] => O:4:"User":6:{s:2:"id";s:2:"21";s:5:"fname";s:7:"Paisley";s:5:"lname";s:5:"Davis";s:5:"email";s:21:"paisley1000@gmail.com";s:8:"username";s:6:"pai123";s:5:"color";N;}
+    [change] => 
+    [currspace] => PaiSpace
+)
+
+12:46:05am : Array
+(
+    [name] => data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxITEhMSExMWFRIXFRgVFxgYFxcaFxoVGBIWIhcVFhMYHCkgGR8nGxcVITMhKCkrMTAuGB8/ODMtNyguLisBCgoKDg0OGxAQGzYmIB8rMS01LS83NzcyMC8tLzUtLzU3MjIwMisyLy0tLysvKy01Ly8wMDUtLy8tLS0rLS0rLf/AABEIAKgBKwMBIgACEQEDEQH/xAAcAAEAAgMBAQEAAAAAAAAAAAAABQYDBAcCCAH/xAA/EAACAQIEAgcFBQcDBQEAAAABAgADEQQSITEFQQYHEyJRYXEygZGhsRQjQlLRM2JygpKiwUOy8BYlg9LhFf/EABoBAQADAQEBAAAAAAAAAAAAAAABAgQDBQb/xAAtEQEAAgIABAMHBAMAAAAAAAAAAQIDEQQSITETQWEFIlFxkaHwMoHB0UKx4f/aAAwDAQACEQMRAD8A7jERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERA8lwNCRNfiuNWhRq1m9mmjOf5VJtOcdb3ROrUFXG0kFW1DKylir0jTJYVqJ2YWuGQ7jbWQ/DuG1cVw9BguIOy1qIFbDYhs6ZrDtFp1bZ6YzXsRcTlmzUxV5rzqDUz0ht0On2LdKVVantoHdGpIFRiT3F5kAW1JmbDdZGKu2c0AApK3p1CWYbICj90nxItI7huBw9RxhcR9oweLOyO1J0qeJo1clqg8r3le6UYJ8HiOwNqgKh1YaEqSRYrfQgg/LxtMGPi4tk5N9e8esek9p rzc2Piscc0dvn SvmD6zMSylvsasq 0VqZbf1AzYp9aqA2qYV1PlUUj4kCVPovw3F1aL9nTVKdT8dRmS9rjugAk tvfvNqt0BxJ1FSiT5s/j/BJv7QxUnlteNukV4mcMXpubfDUf0ulfrIw1NzTrUq9N1tcWpta4vujkbETYwvWLw9yF7VlJ/NTf5kA29ZyPi3Bq2GYCsmQMbK11Ksf3SDv5HXymnRq1abB6WhAIvbkVIYEMLEEEgjUWM0U4jmjdZ3DPPF5621auvn Q k1YEXG0/ZyDo51mDDUKdCtRqVCoPfDqSQWNhZvDbflJ/D9bmBPtU8QnmUQj 1yflNEXiW nEY7RHV0CJUMP1mcLfT7QVP71KqP7slvnJPD9MOHv7OMoX8DVUH4MQZbmh1i9Z7SnImvh8bSf2KiP8Awsp hmxJWIiICIiAiIgIiICIiAiIgIiICIiAiJUemXHsRSYU8NkzAZnLb2OwXkPG58pW94pG5UveKRuVukJxXpThaFwz5nH4U7x9DyHvM5lxHpBiqgy1KzBTyBIBHnbcfKRd/f6fpMtuJn/GGHJx3lWPqs/SLpniK1hQdsMg3y5GdvUspt6D4yo4niePJv8AbcZ/LVsP6RaKleeQ/nOfi3 LHPFZZn9TJheOcWBtS4jWuOVRKT/7l1knQ6xeM0rh0w2IHmrU2v7mt8pFBr6Af5MxVa9NfaYX8BqfhsPeRLxmu6V4zLHqtFHreXsK6Y7DVA5p2VUWwfMCGTOSctr3zaaHa41ofRfo9xBy9PDMgQLTq5XqGydqCaeVwvthfxLabNTiYIKpTuD bvfBRoPfeWLhXSXEAMa7OqugpNiCneQWtTrXIs2QnUHkb MnNlyeFPhx73r9/s38LxNcluW3Rs1ugvEK9JKeL4nmVWDZVohyGGxXEOQ5PmfPxlN6yaxq8TpUcxNkp0rk967Obn1IKzqvR2vxDM9OvTStTC3pYlGVVfwzUycwPmAR5neV7DdWdRuILj8VXRiKgq9mitbMvsLnY7AhTtrbznhYOM8PJM57V1WJ1yxHeflG/q9S9ItXUR3XyioUBFFlUBVA0soFgB7hM2b1 U8rSO808dxEI2Rab1Xy5yqAEhPE3
+)
+
+12:46:51am : Array
+(
+    [content] => 
+    [color] => rgb(228, 28, 52)
+)
+
+01:24:37am : in upload
+01:24:37am : 1
+01:24:37am : in upload
+01:24:37am : 1
+01:24:37am : in upload
+01:24:37am : 1
+01:24:37am : in upload
+01:24:37am : 1
+01:24:37am : in upload
+01:24:37am : 1
+01:24:37am : in upload
+01:24:37am : 1
+01:24:37am : in upload
+01:24:37am : 1
+01:24:38am : in upload
+01:24:38am : 1
+01:24:38am : in upload
+01:24:38am : 1
+01:24:38am : in upload
+01:24:38am : 1
+01:24:38am : in upload
+01:24:38am : 1
+01:24:38am : in upload
+01:24:38am : 1
+01:24:38am : in upload
+01:24:38am : 1
+01:25:25am : in upload
+01:25:25am : 1
+01:25:26am : in upload
+01:25:26am : 1
+01:25:26am : in upload
+01:25:26am : 1
+01:25:26am : in upload
+01:25:26am : 1
+01:25:26am : in upload
+01:25:26am : 1
+01:25:26am : in upload
+01:25:26am : 1
+01:25:27am : in upload
+01:25:27am : 1
+01:25:27am : in upload
+01:25:27am : 1
+01:25:27am : in upload
+01:25:27am : 1
+01:25:27am : in upload
+01:25:27am : 1
+01:25:27am : in upload
+01:25:27am : 1
+01:25:27am : in upload
+01:25:27am : 1
+01:25:27am : in upload
+01:25:27am : 1
+01:25:28am : in upload
+01:25:28am : 1
+01:25:28am : in upload
+01:25:28am : 1
+01:25:28am : in upload
+01:25:28am : 1
+01:25:28am : in upload
+01:25:28am : 1
+01:25:52am : in upload
+01:25:52am : 1
+01:25:52am : in upload
+01:25:52am : 1
+01:25:52am : in upload
+01:25:52am : 1
+01:25:52am : in upload
+01:25:52am : 1
+01:25:53am : in upload
+01:25:53am : 1
+01:25:53am : in upload
+01:25:53am : 1
+01:25:53am : in upload
+01:25:53am : 1
+01:25:53am : in upload
+01:25:53am : 1
+01:25:53am : in upload
+01:25:53am : 1
+01:25:53am : in upload
+01:25:53am : 1
+01:26:08am : in upload
+01:26:08am : 1
+01:26:08am : in upload
+01:26:08am : 1
+01:26:08am : in upload
+01:26:08am : 1
+01:26:08am : in upload
+01:26:08am : 1
+01:26:08am : in upload
+01:26:08am : 1
+01:26:08am : in upload
+01:26:08am : 1
+01:26:08am : in upload
+01:26:08am : 1
+01:26:08am : in upload
+01:26:08am : 1
+01:26:08am : in upload
+01:26:08am : 1
+01:26:08am : in upload
+01:26:08am : 1
+01:27:07am : in upload
+01:27:07am : Array
+(
+    [content] => 
+    [id] => 121
+)
+
+01:27:07am : in upload
+01:27:07am : Array
+(
+    [content] => /
+    [id] => 121
+)
+
+01:27:08am : in upload
+01:27:08am : Array
+(
+    [content] => /,
+    [id] => 121
+)
+
+01:27:08am : in upload
+01:27:08am : Array
+(
+    [content] => /,l
+    [id] => 121
+)
+
+01:27:08am : in upload
+01:27:08am : Array
+(
+    [content] => /,l;
+    [id] => 121
+)
+
+01:27:08am : in upload
+01:27:08am : Array
+(
+    [content] => /,l;k
+    [id] => 121
+)
+
+01:27:08am : in upload
+01:27:08am : Array
+(
+    [content] => /,l;k'
+    [id] => 121
+)
+
+01:27:08am : in upload
+01:27:08am : Array
+(
+    [content] => /,l;k';
+    [id] => 121
+)
+
+01:27:08am : in upload
+01:27:08am : Array
+(
+    [content] => /,l;k';l
+    [id] => 121
+)
+
+01:27:08am : in upload
+01:27:08am : Array
+(
+    [content] => /,l;k';lk
+    [id] => 121
+)
+
+01:27:08am : in upload
+01:27:08am : Array
+(
+    [content] => /,l;k';lk'
+    [id] => 121
+)
+
+01:27:08am : in upload
+01:27:08am : Array
+(
+    [content] => /,l;k';lk';
+    [id] => 121
+)
+
+01:35:18am : Array
+(
+    [content] => 
+    [id] => 131
+)
+
+01:35:18am : Array
+(
+    [content] => 
+    [id] => 131
+)
+
+01:35:20am : Array
+(
+    [content] => 
+    [id] => 121
+)
+
+01:35:20am : Array
+(
+    [content] => '
+    [id] => 121
+)
+
+01:35:21am : Array
+(
+    [content] => ';
+    [id] => 121
+)
+
+01:35:21am : Array
+(
+    [content] => ';l
+    [id] => 121
+)
+
+01:35:21am : Array
+(
+    [content] => ';lk
+    [id] => 121
+)
+
+01:35:21am : Array
+(
+    [content] => ';lk'
+    [id] => 121
+)
+
+01:35:21am : Array
+(
+    [content] => ';lk';
+    [id] => 121
+)
+
+01:35:21am : Array
+(
+    [content] => ';lk';l
+    [id] => 121
+)
+
+01:35:21am : Array
+(
+    [content] => ';lk';lk
+    [id] => 121
+)
+
+01:35:22am : Array
+(
+    [content] => ';lk';lk'
+    [id] => 121
+)
+
+01:35:22am : Array
+(
+    [content] => ';lk';lk'm
+    [id] => 121
+)
+
+01:35:22am : Array
+(
+    [content] => ';lk';lk'mn
+    [id] => 121
+)
+
+01:35:22am : Array
+(
+    [content] => ';lk';lk'mnk
+    [id] => 121
+)
+
+01:35:22am : Array
+(
+    [content] => ';lk';lk'mnkj
+    [id] => 121
+)
+
+01:35:22am : Array
+(
+    [content] => ';lk';lk'mnkjh
+    [id] => 121
+)
+
+01:35:22am : Array
+(
+    [content] => ';lk';lk'mnkjhg
+    [id] => 121
+)
+
+01:35:22am : Array
+(
+    [content] => ';lk';lk'mnkjhgj
+    [id] => 121
+)
+
+01:35:22am : Array
+(
+    [content] => ';lk';lk'mnkjhgjh
+    [id] => 121
+)
+
+01:35:22am : Array
+(
+    [content] => ';lk';lk'mnkjhgjhg
+    [id] => 121
+)
+
+01:35:22am : Array
+(
+    [content] => ';lk';lk'mnkjhgjhgf
+    [id] => 121
+)
+
+01:35:23am : Array
+(
+    [content] => ';lk';lk'mnkjhgjhgfg
+    [id] => 121
+)
+
+01:35:23am : Array
+(
+    [content] => ';lk';lk'mnkjhgjhgfgg
+    [id] => 121
+)
+
+01:35:23am : Array
+(
+    [content] => ';lk';lk'mnkjhgjhgfggj
+    [id] => 121
+)
+
+01:35:23am : Array
+(
+    [content] => ';lk';lk'mnkjhgjhgfggjh
+    [id] => 121
+)
+
+01:40:58am : in dao
+01:40:58am : Query Errors:00000
+01:40:58am : after
+01:40:59am : in dao
+01:40:59am : Query Errors:00000
+01:40:59am : after
+01:40:59am : in dao
+01:40:59am : Query Errors:00000
+01:40:59am : after
+01:41:00am : in dao
+01:41:00am : Query Errors:00000
+01:41:00am : after
+01:41:00am : in dao
+01:41:00am : Query Errors:00000
+01:41:00am : after
+01:41:01am : in dao
+01:41:01am : Query Errors:00000
+01:41:01am : after
+01:41:01am : in dao
+01:41:01am : Query Errors:00000
+01:41:01am : after
+01:41:01am : in dao
+01:41:01am : Query Errors:00000
+01:41:01am : after
+01:55:41am : Array
+(
+    [id] => undefined
+)
+
+01:56:24am : Array
+(
+    [id] => undefined
+)
+
+01:58:09am : Array
+(
+    [id] => 161
+)
+
+02:00:22am : Array
+(
+    [content] => This is a note. Typing a note. automatically saves okay?
+    [id] => 121
+)
+
+02:07:30am : Array
+(
+    [id] => 161
+    [isImage] => true
+)
+
+02:08:56am : Array
+(
+    [id] => 141
+    [isImage] => false
+)
+
+02:10:16am : Array
+(
+    [id] => 181
+    [isImage] => true
+)
+
+02:11:41am : Array
+(
+    [id] => 131
+    [isImage] => false
+)
+
+02:11:41am : Array
+(
+    [id] => 131
+    [isImage] => false
+)
+
+02:12:24am : Array
+(
+    [id] => 131
+    [isImage] => false
+)
+
+02:12:40am : Array
+(
+    [id] => 141
+    [isImage] => false
+)
+
+02:13:29am : is image
+06:08:48am : Error getting user variable.
+06:09:02am : Error getting user variable.
+06:28:53am : Unable to delete user: Array
+06:30:11am : Unable to delete user: Array
+(
+    [0] => 23000
+    [1] => 1451
+    [2] => Cannot delete or update a parent row: a foreign key constraint fails (`heroku_796c44685342930`.`workspaces`, CONSTRAINT `workspaces_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`))
+)
+
+06:47:53am : Array
+(
+    [login-errors] => Array
+        (
+        )
+
+    [authenticated] => 1
+    [user] => O:4:"User":6:{s:2:"id";s:2:"21";s:5:"fname";s:7:"Paisley";s:5:"lname";s:5:"Davis";s:5:"email";s:21:"paisley1000@gmail.com";s:8:"username";s:6:"pai123";s:5:"color";N;}
+    [change] => 
+    [currspace] => Stuff
+)
+
+06:48:07am : Errors:Array
+(
+    [login-errors] => Array
+        (
+        )
+
+    [authenticated] => 1
+    [user] => O:4:"User":6:{s:2:"id";s:2:"21";s:5:"fname";s:7:"Paisley";s:5:"lname";s:5:"Davis";s:5:"email";s:21:"paisley1000@gmail.com";s:8:"username";s:6:"pai123";s:5:"color";N;}
+    [change] => 
+    [currspace] => Stuff
+    [reg-errors] => Array
+        (
+        )
+
+)
+
+06:59:31am : Array
+(
+)
+
+06:59:43am : Errors:Array
+(
+    [reg-errors] => Array
+        (
+        )
+
+)
+
+07:04:30am : color: 409F9A

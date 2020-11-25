@@ -1,0 +1,80 @@
+12:31:18am : color: AE429B
+03:18:04am : color: 999999
+03:18:34am : color: 622525
+04:02:24am : Array
+(
+    [workspace-name] => Moomins
+    [workspace-color] => #16E9B3
+    [wname] => 
+)
+
+04:24:06am : Array
+(
+    [workspace-name] => BigFacts
+    [workspace-color] => #999999
+)
+
+04:25:43am : check: 1 error: Array
+04:25:43am : Array
+(
+    [workspace-name] => Pandas
+    [workspace-color] => #922AD2
+)
+
+04:27:53am : __PHP_Incomplete_Class Object
+(
+    [__PHP_Incomplete_Class_Name] => User
+    [id] => 21
+    [fname] => Paisley
+    [lname] => Davis
+    [email] => paisley1000@gmail.com
+    [username] => pai123
+    [color] => 
+)
+
+04:28:39am : User Object
+(
+    [id] => 21
+    [fname] => Paisley
+    [lname] => Davis
+    [email] => paisley1000@gmail.com
+    [username] => pai123
+    [color] => 
+)
+
+04:32:05am : check: 1 error: Array
+04:40:46am : check: 1 error: Array
+04:44:09am : check: 1 error: Array
+04:44:50am : color: F3FF00
+04:51:42am : check: 1 error: Array
+04:53:16am : check: 1 error: Array
+04:55:25am : check: 1 error: Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+
+04:56:46am : check: 1 error: Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+
+05:00:40am : check: 1 error: Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+
+05:02:22am : check: 1 error: Array
+(
+    [0] => 00000
+    [1] => 
+    [2] => 
+)
+
+05:06:04am : color: 932C2C
+06:21:35am : color: 7D22B9

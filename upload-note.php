@@ -1,7 +1,7 @@
 <?php
 
-$logger->addLog("Adding note.");
+$color = str_replace("#", "", $_POST["note-color"]);
 
-$dao->addNote($_POST["note-color"], $_SESSION["current-space"], $user->id);
+$dao->addNote($color, $_SESSION["currspace"], $user->id);
 
 ?>

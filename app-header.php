@@ -23,9 +23,19 @@
 ?>
 <html>
     <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="js/app-header.js"></script>
+        
+        <!-- link and script for color picker -->
+        <!-- https://github.com/Simonwep/pickr -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/themes/monolith.min.css"/> <!-- 'monolith' theme -->
+        <script src="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/pickr.min.js"></script>
+        <!-- very old jquery ui plugin :) -->
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
         <title>Muse</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
-		<link rel="stylesheet" type="text/css" href="app.css">
+        <link rel="stylesheet" type="text/css" href="style/style.css">
+		<link rel="stylesheet" type="text/css" href="style/app.css">
         <link rel="icon" type="image/png" href="images/favicon.png">
 
 		<!-- fonts -->
@@ -33,11 +43,18 @@
     </head>
     <body>
         <div id="app-header">
-            <a href="index.php"><img src="images/muse-icon.png"></a>
+            <img src="images/muse-icon.png">
             <div id="app-header-options-container">
                 <p id="username" class="ubuntu-font">
                     <?php echo $user->username; ?>
                 </p>
-                <img src="images/hamburger.png"> 
+                <img id="hamburger" src="images/hamburger.png"> 
+            </div>
+
+            <div id="user-options">
+                <a href="about.php" id="app-about" class="ubuntu-font">About</a>
+                <a href="contact.php" id="app-contact" class="ubuntu-font">Contact</a>
+                <div id="logout" class="ubuntu-font">Logout</div>
+                <div id="delete-account" class="ubuntu-font">Delete Account</div>
             </div>
         </div>

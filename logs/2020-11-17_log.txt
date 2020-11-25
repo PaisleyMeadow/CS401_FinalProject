@@ -1,0 +1,117 @@
+09:42:01pm : Adding note.
+09:42:02pm : Query Errors:00000
+09:42:02pm : Array
+(
+    [login-errors] => Array
+        (
+        )
+
+    [authenticated] => 1
+    [user] => O:4:"User":6:{s:2:"id";s:2:"21";s:5:"fname";s:7:"Paisley";s:5:"lname";s:5:"Davis";s:5:"email";s:21:"paisley1000@gmail.com";s:8:"username";s:6:"pai123";s:5:"color";N;}
+    [change] => 
+    [currspace] => Grean
+)
+
+09:43:29pm : Adding note.
+09:43:30pm : Query Errors:00000
+09:43:30pm : Array
+(
+    [login-errors] => Array
+        (
+        )
+
+    [authenticated] => 1
+    [user] => O:4:"User":6:{s:2:"id";s:2:"21";s:5:"fname";s:7:"Paisley";s:5:"lname";s:5:"Davis";s:5:"email";s:21:"paisley1000@gmail.com";s:8:"username";s:6:"pai123";s:5:"color";N;}
+    [change] => 
+    [currspace] => Grean
+)
+
+09:47:20pm : Adding note.Array
+(
+    [type] => note
+    [note-color] => fdf0d5
+    [img_url] => 
+)
+Array
+(
+    [login-errors] => Array
+        (
+        )
+
+    [authenticated] => 1
+    [user] => O:4:"User":6:{s:2:"id";s:2:"21";s:5:"fname";s:7:"Paisley";s:5:"lname";s:5:"Davis";s:5:"email";s:21:"paisley1000@gmail.com";s:8:"username";s:6:"pai123";s:5:"color";N;}
+    [change] => 
+    [currspace] => Grean
+)
+
+09:48:34pm : Adding note.Array
+(
+    [type] => note
+    [note-color] => fdf0d5
+    [img_url] => 
+)
+Array
+(
+    [login-errors] => Array
+        (
+        )
+
+    [authenticated] => 1
+    [user] => O:4:"User":6:{s:2:"id";s:2:"21";s:5:"fname";s:7:"Paisley";s:5:"lname";s:5:"Davis";s:5:"email";s:21:"paisley1000@gmail.com";s:8:"username";s:6:"pai123";s:5:"color";N;}
+    [change] => 
+    [currspace] => Grean
+)
+21
+09:50:35pm : Adding note.Array
+(
+    [type] => note
+    [note-color] => #5520A2
+    [img_url] => 
+)
+Array
+(
+    [login-errors] => Array
+        (
+        )
+
+    [authenticated] => 1
+    [user] => O:4:"User":6:{s:2:"id";s:2:"21";s:5:"fname";s:7:"Paisley";s:5:"lname";s:5:"Davis";s:5:"email";s:21:"paisley1000@gmail.com";s:8:"username";s:6:"pai123";s:5:"color";N;}
+    [change] => 
+    [currspace] => Grean
+)
+21
+09:50:36pm : Query Errors:00000
+09:52:49pm : Adding note.Array
+(
+    [type] => note
+    [note-color] => #62DC90
+    [img_url] => 
+)
+Array
+(
+    [login-errors] => Array
+        (
+        )
+
+    [authenticated] => 1
+    [user] => O:4:"User":6:{s:2:"id";s:2:"21";s:5:"fname";s:7:"Paisley";s:5:"lname";s:5:"Davis";s:5:"email";s:21:"paisley1000@gmail.com";s:8:"username";s:6:"pai123";s:5:"color";N;}
+    [change] => 
+    [currspace] => Grean
+)
+21
+09:52:49pm : Query Errors:00000
+09:54:13pm : Query Errors:00000
+10:02:18pm : Query Errors:00000
+10:02:47pm : Query Errors:00000
+10:03:39pm : Query Errors:00000
+10:04:25pm : Query Errors:00000
+10:11:18pm : Query Errors:00000
+10:11:28pm : Query Errors:00000
+10:13:52pm : Adding image.
+10:28:18pm : Adding image.
+10:34:19pm : color: 1BCBBC
+10:37:22pm : color: 4F2F2F
+10:38:57pm : Adding image.
+10:39:26pm : Adding image.
+10:41:01pm : Adding image.
+10:41:01pm : No image given

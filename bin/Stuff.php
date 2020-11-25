@@ -1,0 +1,5 @@
+<?php $_SESSION['currspace'] = 'Stuff';?><div class="workspace-container"><div class="workspace-border-container" style="background-color:AE429B;"><div class="workspace" id="Stuff" style="background-color:AE429B;"><div><img class="draggable" data-id="241" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1VcsdjD6qKKFhp18yXsJ1A0wudt_5LLE2Tg&usqp=CAU"></div>
+<div><img class="draggable" data-id="291" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuRxbYf6bhpzSPBP39gAoKjG6uFNlM3-tdPA&usqp=CAU"></div>
+<div><img class="draggable" data-id="321" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShAlqMEflLZQ-pyBM-0OTkbDb0OATjW1pUgw&usqp=CAU"></div>
+<div><img class="draggable" data-id="331" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTlYJsfDdOKymLYKpm2b5L8fR1rA31nHDBIg&usqp=CAU"></div>
+</div></div></div>

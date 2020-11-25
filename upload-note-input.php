@@ -11,14 +11,10 @@
     require_once("Logger.php");
     $logger = new Logger();
 
-    if($_POST["type"] == "image"){
-        require_once("upload-image.php");
-    }
-    else{
-        require_once("upload-note.php");
-    }
 
+    $dao->addNoteInput(htmlspecialchars($_POST["content"]), $_POST["id"]);
+  
     $_SESSION["change"] = true;
-    
+
     exit();
 ?>

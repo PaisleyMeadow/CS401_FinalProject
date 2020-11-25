@@ -1,0 +1,63 @@
+12:24:15am : get:
+12:24:27am : get:
+03:09:09am : 
+03:10:59am : Array
+03:11:32am : 
+03:12:20am : Array
+(
+    [reg-errors] => Array
+        (
+        )
+
+    [authenticated] => 1
+    [user] => O:4:"User":6:{s:2:"id";s:2:"21";s:5:"fname";s:7:"Paisley";s:5:"lname";s:5:"Davis";s:5:"email";s:21:"paisley1000@gmail.com";s:8:"username";s:6:"pai123";s:5:"color";N;}
+    [login-errors] => Array
+        (
+        )
+
+)
+
+03:18:48am : Array
+03:19:11am : Array
+(
+    [name] => hjgkjhk
+)
+
+03:20:35am : Array
+(
+    [name] => hjgkjhk
+)
+
+03:21:51am : Array
+(
+    [name] => hjgkjhk
+)
+
+03:22:04am : Array
+(
+    [name] => hjgkjhk
+)
+
+03:22:19am : Array
+(
+    [name] => hjgkjhk
+)
+
+03:23:53am : Array
+(
+    [name] => hjgkjhk
+)
+
+03:24:02am : Array
+(
+    [name] => hjgkjhk
+)
+
+03:32:39am : 
+03:32:41am : 
+03:34:09am : 
+03:34:11am : 
+03:34:34am : 
+03:34:35am : 
+03:34:48am : Bird
+03:34:49am : hjgkjhk

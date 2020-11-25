@@ -9,7 +9,7 @@
 <html>
 	<head>
 		<title>Home</title>
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="style/style.css">
 		<link rel="icon" type="image/png" href="images/favicon.png">
 
 		<!-- fonts -->

@@ -1,0 +1,119 @@
+06:59:02pm : Saving Color:Array
+(
+    [reg-errors] => Array
+        (
+        )
+
+    [authenticated] => 1
+    [user] => O:4:"User":6:{s:2:"id";s:2:"21";s:5:"fname";s:7:"Paisley";s:5:"lname";s:5:"Davis";s:5:"email";s:21:"paisley1000@gmail.com";s:8:"username";s:6:"pai123";s:5:"color";N;}
+    [login-errors] => Array
+        (
+        )
+
+    [currspace] => hjgkjhk
+)
+
+07:13:50pm : Saving Color:Array
+(
+    [#1D1152] => 
+)
+
+07:18:52pm : Saving Color:Array
+(
+    [#999999] => 
+)
+
+07:21:09pm : Saving Color:Array
+(
+    [#999999] => 
+)
+
+07:21:37pm : Saving Color:Array
+(
+    [#BE1D1D] => 
+)
+
+07:22:34pm : Saving Color:Array
+(
+    [#673AB7] => 
+)
+
+07:22:48pm : Saving Color:Array
+(
+    [#9C27B0] => 
+)
+
+07:22:49pm : Saving Color:Array
+(
+    [#9C27B0] => 
+)
+
+07:22:49pm : Saving Color:Array
+(
+    [#9C27B0] => 
+)
+
+07:24:58pm : Saving Color:Array
+(
+    [#9C27B0] => 
+)
+
+07:26:32pm : Saving Color:Array
+(
+    [#844242] => 
+)
+
+07:30:09pm : Saving Color:Array
+(
+    [#AE1515] => 
+)
+
+07:30:12pm : Saving Color:Array
+(
+    [#AE1515] => 
+)
+
+07:30:13pm : Saving Color:Array
+(
+    [#AE1515] => 
+)
+
+07:30:13pm : Saving Color:Array
+(
+    [#AE1515] => 
+)
+
+07:30:13pm : Saving Color:Array
+(
+    [#AE1515] => 
+)
+
+07:30:28pm : Saving Color:Array
+(
+    [#823939] => 
+)
+
+07:30:46pm : Saving Color:Array
+(
+    [color] => #9C27B0
+)
+
+07:46:27pm : color: 
+07:47:53pm : color: 10B6DA
+08:20:50pm : color: C81E1E
+08:21:53pm : color: 7D12B2
+08:27:48pm : color: 1957C8
+08:28:24pm : color: 1957C8
+08:29:15pm : color: 9C27B0
+08:30:02pm : color: 04EFCD
+08:30:50pm : color: C51AC8
+08:31:24pm : color: C51AC8
+08:35:03pm : color: 28C03E
+08:35:38pm : color: 79DAC4
+08:59:46pm : color: D169DC
+10:15:25pm : Deleting
+10:17:03pm : Deleting
+10:17:04pm : Delete: 1
+10:20:52pm : color: AB1234
+10:21:10pm : color: 1271AB
+10:23:48pm : color: 47883E

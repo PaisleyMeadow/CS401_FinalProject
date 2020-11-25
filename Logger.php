@@ -12,8 +12,6 @@ class Logger{
         //opens file if already created or creates it
         $this->filepath = "logs/".date("Y-m-d")."_log.txt";
         $this->logfile = fopen($this->filepath, "a") or die ("Unable to open file.");
-
-        $this->addLog("New logger instance created.");
     }
 
     public function addLog($message){

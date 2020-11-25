@@ -1,6 +1,8 @@
 body{
     margin: 0;
     background-color: #999999;
+    height: 100%;
+    overflow: auto;
 
 }
 .ubuntu-font{
@@ -8,13 +10,13 @@ body{
 }
 #app-header{
     position: fixed;
+    z-index: 50;
     display: grid;
     grid-template-columns: 70% 30%;
     align-items: center;
     padding: 0;
     width: 100%;
     height: 10%;
-    z-index: 1;
 
     background-color: #272727;
 }
@@ -67,9 +69,9 @@ body{
     grid-template-columns: repeat(10, auto);
 }
 .workspace-tabs{
+    font-size: 1.5em;
     padding: 1vw;
     color: #272727;
-    background-color: blue;
     min-width: fit-content;
     background-color: #cbef43;
     border-top-left-radius: .5em;
@@ -91,6 +93,10 @@ body{
     clip-path: none;
     border-top-right-radius: .5em;
 }
+.plus-tab-clicked{
+    background-color: #e41c34;
+    color: #272727 !important;
+}
 #workspace-icons-container{
     background-color: #272727;
     width: 100%;
@@ -111,7 +117,7 @@ body{
     padding: 5%;
     border-radius: 1em;
 
-    box-shadow: inset -20px -15px 2vw .3vw #cbef43;
+    /* box-shadow: inset -20px -15px 2vw .3vw #cbef43; */
     color: #272727;
     font-size: 2em;
     text-decoration: none;
@@ -126,21 +132,28 @@ body{
     cursor: pointer;
     width: 81%;
 }
+#no-workspaces{
+    color: #999999;
+    font-size: 2em;
+    margin-left: 2em;
+}
 
 /* individual workspace */
 .workspace-container{
-    position: relative;
+    /* position: relative; */
     background-color: #272727;
     max-width: 100%;
     max-height: 100%;
     padding: 1em;
 }
-
+.workspace-border-container{
+    width: 100%;
+    height: 100%;
+}
 .workspace{
     background-color: #999999;
     width: 97%;
     height: 95%;
-    border-radius: 1em;
     border: double 2em #272727;
     /* padding: 2em; */
 
@@ -154,9 +167,6 @@ body{
 .workspace img{
     width: 50%;
     margin: 2em;
-
-    border: solid #999999;
-    border-radius: 1em;
 }
 .workspace img:hover{
     border: solid #8685ef;
@@ -193,37 +203,98 @@ body{
     outline-color: #8685ef;
 }
 
-#add-element{
-    position: absolute;
-    bottom: 40;
-    right: 60;
-
+.element-button{
     font-size: 4em;
     background-color: #cbef43;
     color: #8685ef;
     padding: 1% 2% 1% 2%;
     border-radius: .5em;
 }
-#add-element:hover{
+.element-button:hover{
+    cursor: pointer;
     color: #e41c34;
 }
+#delete-element{
+    position: absolute;
+    bottom: 40;
+    right: 180;
+    padding: 1% 2.5% 1% 2.5%;
+}
+#open-add-element{
+    position: absolute;
+    bottom: 40;
+    right: 60;
+}
 
-/* adding new element elements */
+
+/* adding new element container/form */
 #new-element-container{
-    position: fixed;
+    position: absolute;
+    display: none;
     width: 40%;
-    height: 50%;
+    height: fit-content;
+    padding: 3%;
     background-color: #cbef43;
+    border-radius: 1vw;
+    font-size: 1vw;
+
+    margin: 5% auto auto auto; 
+    margin-top: 0;
+    left: 0;
+    right: 0;
+    padding: 2%;
+}
+#new-element-form{
+    display: grid;
+}
+#new-element-form h2{
+    color: #272727;
+    margin: 1%;
+}
+#new-element-form div{
+    display: none;
+    align-self: center;
+    justify-self: center;
+}
+#new-element-form input[type=text]{
+    border: none;
+    border-radius: .5vw;
+
+    background-color: #fdf0d5;
+    padding: 1vw;
+    margin-bottom: 2%;
+
+}
+#new-element-form input[type=submit], #file-upload-label, #close-new-element{
+    border: none;
+    border-radius: 1vw;
+    background-color: #e41c34;
+    color: #fdf0d5;
+    font-size: 1vw;
+    padding: 3%;
+    margin: 2%;
+}
+#new-element-form input[type=submit]:hover, #file-upload-label:hover, #close-new-element:hover{
+    cursor: pointer;
+    color: #cbef43;
+}
+/* file input is hidden so I can style the label */
+#new-element-form input[type=file]{
+    display: none;
+}
+#img-to-upload{
+    color: #8685ef;
 }
 
 /* sidebar menu */
 #sidebar{
     position: fixed;
-    right: 0;
+    right: -8%;
     top: 300;
+    z-index: 10;
 
     height: 50%;
-    width: 10%;
+    width: 10vw;
 
     background-color: #cbef43;
 
@@ -231,6 +302,11 @@ body{
     grid-template-rows: repeat(3, 1fr); 
     align-items: center;
     justify-items: center;
+
+    transition: .5s ease-in;
+}
+#sidebar:hover, .sidebar-hover{
+    transform: translateX(-80%);
 }
 #sidebar img{
     width: 50%;
@@ -238,4 +314,127 @@ body{
 }
 #sidebar img:hover{
     cursor: pointer;
+}
+#color{
+    padding: 2em;
+
+    border-radius: 1em;
+    border: solid black 4px;
+}
+#color:hover{
+    cursor: pointer;
+}
+
+/* Edit workspace name elements */
+#edit-name{
+    position: fixed;
+    display: none;
+    transition: .5s ease-in-out;
+
+    background-color: #272727;
+    width: 100%;
+    margin: 5% auto; 
+    left: 0;
+    right: 0;
+
+    font-size: 1vw;
+}
+#edit-name label{
+    color: #999999;
+    margin-bottom: 3%;
+}
+#edit-name-form{
+    padding: 3%;
+}
+#workspace-name-input{
+    border: none;
+    border-radius: .5vw;
+    background-color: #fdf0d5;
+    width: 80%;
+}
+.workspace-input-submit{
+    border: none;
+    border-radius: 1vw;
+    background-color: #cbef43;
+    color: #e41c34;
+}
+.workspace-input-submit:hover{
+    cursor: pointer;
+}
+
+/* adding new workspace */
+#add-new-workspace-container{
+    position: fixed;
+    display: none;
+
+    background-color: #cbef43;
+    border-radius: 1vw;
+    width: 55%;
+    height: 15%;
+
+    margin: 5% auto auto auto; 
+    left: 0;
+    right: 0;
+    padding: 2%;
+}
+#new-workspace-form input[type=text]{
+    border: none;
+    border-radius: .5vw;
+    background-color: #fdf0d5;
+
+    margin: 1%;
+    padding: 1vw;
+    font-size: 1vw;
+}
+#new-workspace-form input[type=submit], #new-workspace-form button{
+    border: none;
+    border-radius: 1vw;
+    background-color: #e41c34;
+    color: #cbef43;
+
+    margin: 1%;
+    padding: 1vw;
+    font-size: 1vw;
+}
+#new-workspace-form input[type=submit]:hover, #new-workspace-form button:hover{
+    cursor: pointer;
+    background-color: #272727;
+}
+
+#user-options{
+    position: fixed;
+    display: grid;
+    visibility: hidden;
+    right: .7%;
+    top: 9%;
+
+    width: 10%;
+    height: 20%;
+
+    grid-template-rows: repeat(4, 1fr);
+    grid-row-gap: 2%;
+    padding: .5%;
+
+    background-color: #272727;
+}
+#user-options:before {
+    content: "";
+    position: absolute;
+    top: -15%;                        
+    right: 23%;
+    border: solid 15px transparent;
+    border-right-color: #999999;
+
+    transform: rotate(90deg);
+}
+#user-options div, #user-options a{
+    color: #272727;
+    font-size: 1.2em;
+    background-color: #999999;
+    text-align: center;
+    padding: 5%;
+}
+#user-options div:hover, #user-options a:hover{
+    cursor: pointer;
+    color: #e41c34;
 }

@@ -1,0 +1,1 @@
+<?php $_SESSION['currspace'] = 'Poop';?><div class="workspace-container"><div class="workspace-border-container" style="background-color:999999;"><div class="workspace" id="Poop" style="background-color:999999;"></div></div></div>
