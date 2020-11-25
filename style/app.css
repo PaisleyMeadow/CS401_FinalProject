@@ -231,6 +231,7 @@ body{
 #new-element-container{
     position: absolute;
     display: none;
+    z-index: 10;
     width: 40%;
     height: fit-content;
     padding: 3%;

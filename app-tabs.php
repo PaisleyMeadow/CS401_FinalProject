@@ -27,8 +27,8 @@
                 //divs for workspace
                 //this is only time I use inline styline, so shhhhhh
                 $st .= '<div class="workspace-container">';
-                $st .= '<div class="workspace-border-container" style="background-color:'.$space["color"].';">';
-                $st .= '<div class="workspace" id="'.$space["name"].'" style="background-color:'.$space["color"].';">';
+                $st .= '<div class="workspace-border-container" style="background-color:#'.$space["color"].';">';
+                $st .= '<div class="workspace" id="'.$space["name"].'" style="background-color:#'.$space["color"].';">';
 
                 foreach($elements as $key => $el){
                     if($el != false){

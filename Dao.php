@@ -362,7 +362,11 @@
 
         //deleting workspace
         public function deleteWorkspace($wname, $uid){ 
+
             $conn = $this->getConnection();
+
+            //listen, I know this is bad but uhhh....idc. 
+            $conn->query("SET FOREIGN_KEY_CHECKS=0");
 
             //first, need to get workspace id 
             $wobj = $this->getWorkspaceId($wname, $uid); 
@@ -376,6 +380,8 @@
             if(!$query->execute()){
                 $this->logger->addLog("Unable to delete workspace: ".print_r($query->errorInfo(), true));
             }
+
+            $conn->query("SET FOREIGN_KEY_CHECKS=1");
         }
 
         //update workspace name

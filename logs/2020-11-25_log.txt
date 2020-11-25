@@ -500,3 +500,16 @@
 )
 
 07:04:30am : color: 409F9A
+07:22:24am : No image given
+09:09:10pm : Unable to delete workspace: Array
+(
+    [0] => 23000
+    [1] => 1451
+    [2] => Cannot delete or update a parent row: a foreign key constraint fails (`heroku_796c44685342930`.`images`, CONSTRAINT `images_ibfk_1` FOREIGN KEY (`workspace_id`) REFERENCES `workspaces` (`id`))
+)
+
+09:34:16pm : color: 3E1971
+09:38:59pm : No image given
+09:40:34pm : No image given
+09:40:40pm : No image given
+09:40:49pm : No image given

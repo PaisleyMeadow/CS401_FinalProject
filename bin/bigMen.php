@@ -1,0 +1,2 @@
+<?php $_SESSION['currspace'] = 'bigMen';?><div class="workspace-container"><div class="workspace-border-container" style="background-color:#393434;"><div class="workspace" id="bigMen" style="background-color:#393434;"><div><img class="draggable" data-id="401" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCC4squwzXz2nJjoLg54HZI__bsl39JUc6NQ&usqp=CAU"></div>
+</div></div></div>

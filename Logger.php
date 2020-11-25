@@ -20,6 +20,9 @@ class Logger{
         if(fwrite($this->logfile, $date." : ".$message."\n") == false){
             echo "Failed to write to file.";
         }
+
+        //for heroku 
+        echo $message;
     }
 
 };
