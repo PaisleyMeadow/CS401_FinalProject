@@ -1,4 +1,3 @@
-<a href="bin/images/"><img class="" src="bin/images/"></a>
-<a href="bin/images/"><img class="" src="bin/images/"></a>
-<a href="https://www.sorainen.com/wp-content/uploads/2019/12/moomins.jpg"><img class="" src="https://www.sorainen.com/wp-content/uploads/2019/12/moomins.jpg"></a>
-<a href="bin/images/Screenshot (32).png"><img class="" src="bin/images/Screenshot (32).png"></a>
+<?php $_SESSION['currspace'] = 'Moomins';?><div class="workspace-container"><div class="workspace-border-container" style="background-color:#BC2898;"><div class="workspace" id="Moomins" style="background-color:#BC2898;"><div><img class="draggable" data-id="421" src="bin/images/shipBeige_damage1.png"></div>
+<div><img class="draggable" data-id="431" src="bin/images/shipBeige.png"></div>
+</div></div></div>
