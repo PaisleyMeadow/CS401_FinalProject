@@ -20,7 +20,7 @@
                     //     <img class="workspace-icon-image" src="images/ex2.png">
                     //     <img class="workspace-icon-image" src="images/ex3.jpg">
                     //     Workspace1
-                    // </a>
+                    // </a>////
                 ?>
             </div>
 <?php 
