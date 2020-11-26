@@ -7,8 +7,8 @@ if($_POST["img_url"] == "" && $_FILES["img"]["name"] == ""){
 
 //saves uploaded image file or url
 if($_FILES["img"]["name"] != ""){ 
-    move_uploaded_file($_FILES["img"]["tmp_name"], "images/".$_FILES["img"]["name"]);
-    $src = "images/".$_FILES["img"]["name"];
+    move_uploaded_file($_FILES["img"]["tmp_name"], "bin/images/".$_FILES["img"]["name"]);
+    $src = "bin/images/".$_FILES["img"]["name"];
 }
 else{
     $src = $_POST["img_url"];
