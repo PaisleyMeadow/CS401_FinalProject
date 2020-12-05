@@ -25,7 +25,7 @@
                 $st = "<?php \$_SESSION['currspace'] = '".$space["name"]."';?>"; //session variable to know which workspace we're in
 
                 //divs for workspace
-                //this is only time I use inline styline, so shhhhhh
+                //this is only time I use inline styline, so shhhhhh (actually 1/2 times but)
                 $st .= '<div class="workspace-container">';
                 $st .= '<div class="workspace-border-container" style="background-color:#'.$space["color"].';">';
                 $st .= '<div class="workspace" id="'.$space["name"].'" style="background-color:#'.$space["color"].';">';
