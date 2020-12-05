@@ -2,4 +2,5 @@
 <div><img class="draggable" data-id="821" src="images/genericItem_color_023.png"></div>
 <div><img class="draggable" data-id="831" src="images/genericItem_color_012.png"></div>
 <div><img class="draggable" data-id="841" src="images/genericItem_color_075.png"></div>
+<div><img class="draggable" data-id="951" src="bin/images/spikeMan_jump.png"></div>
 </div></div></div>

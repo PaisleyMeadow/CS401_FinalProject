@@ -10,7 +10,7 @@ if($_FILES["img"]["name"] != ""){
     $check = move_uploaded_file($_FILES["img"]["tmp_name"], "bin/images/".$_FILES["img"]["name"]);
     $src = "bin/images/".$_FILES["img"]["name"];
 
-    $logger-addLog("adding image: ".$src." upload: ".$check);
+    $logger->addLog("adding image: ".$src." upload: ".$check);
 }
 else{
     $src = $_POST["img_url"];
