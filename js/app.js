@@ -282,41 +282,41 @@ $("#new-element-container").on("drop", function(e){
         }
     }
 });
-//make entire workspace drag and drop for images
-$(".workspace").on("dragenter", function(e){
-    e.preventDefault();
-    $(".workspace-container").css("border", "#e41c34 5px solid")
-});
-$(".workspace").on("dragover", function(e){
-    e.preventDefault();
-});
-$(".workspace").on("drop", function(e){
-    e.preventDefault();
-    $(".workspace-container").css("border", "none")
+// //make entire workspace drag and drop for images
+// $(".workspace").on("dragenter", function(e){
+//     e.preventDefault();
+//     $(".workspace-container").css("border", "#e41c34 5px solid")
+// });
+// $(".workspace").on("dragover", function(e){
+//     e.preventDefault();
+// });
+// $(".workspace").on("drop", function(e){
+//     e.preventDefault();
+//     $(".workspace-container").css("border", "none")
 
-    var image;
-    var preview;
+//     var image;
+//     var preview;
 
-    if(e.originalEvent.dataTransfer.files[0]){ alert("Drag and drop doesn't work with local files :(");
-        image = e.originalEvent.dataTransfer.files[0];
-        preview = image.name;
-    }
-    if(e.originalEvent.dataTransfer.getData("text/html")){
-        image = $(e.originalEvent.dataTransfer.getData("text/html")).prop("src");
-        preview = image;
+//     if(e.originalEvent.dataTransfer.files[0]){ alert("Drag and drop doesn't work with local files :(");
+//         image = e.originalEvent.dataTransfer.files[0];
+//         preview = image.name;
+//     }
+//     if(e.originalEvent.dataTransfer.getData("text/html")){
+//         image = $(e.originalEvent.dataTransfer.getData("text/html")).prop("src");
+//         preview = image;
 
-        //add to url input
-        $("#new-element-form input[name='img_url']").val(image); 
-    }
+//         //add to url input
+//         $("#new-element-form input[name='img_url']").val(image); 
+//     }
 
-    //display image preview (either actual image or file name)
-    $("#upload-image-div").append('<label id="img-to-upload">Uploading: ' + preview +'</label>');
+//     //display image preview (either actual image or file name)
+//     $("#upload-image-div").append('<label id="img-to-upload">Uploading: ' + preview +'</label>');
 
-    //check image box and trigger form submit
-    $("#image-opt").prop("checked", true);
-    $("#new-element-form").submit();
+//     //check image box and trigger form submit
+//     $("#image-opt").prop("checked", true);
+//     $("#new-element-form").submit();
 
-});
+// });
 
 //display file name on from desktop upload
 $("#img").change(function(){
