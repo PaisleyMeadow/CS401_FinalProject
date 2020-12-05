@@ -1,6 +1,6 @@
 <div id="new-element-container">
     <h2 class="ubuntu-font">What type of element would you like to add?</h2>
-    <form id="new-element-form" class="ubuntu-font" method="post" action="upload-element.php" enctype="multipart/form-data">
+    <form id="new-element-form" class="ubuntu-font" method="post" enctype="multipart/form-data">
         <h2><input type="radio" name="type" value="note" id="note-opt">
         <label for="note-opt">Note</label></h2><br>
         <div id="note-color-div">
@@ -13,7 +13,7 @@
             <label for="img_url">Image URL: </label>
             <input type="text" name="img_url" placeholder="URL">
             <p>OR
-            <!-- <label for="img" id="file-upload-label">Upload Image File</label></p><br> -->
+            <label for="img" id="file-upload-label">Upload Image File</label></p><br>
             <input type="file" id="img" name="img" value="img" accept="image/*">
             <p> You can also drag and drop an image onto the workspace at any time.</p>
         </div>

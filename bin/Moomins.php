@@ -1,3 +1,1 @@
-<?php $_SESSION['currspace'] = 'Moomins';?><div class="workspace-container"><div class="workspace-border-container" style="background-color:#BC2898;"><div class="workspace" id="Moomins" style="background-color:#BC2898;"><div><img class="draggable" data-id="421" src="bin/images/shipBeige_damage1.png"></div>
-<div><img class="draggable" data-id="431" src="bin/images/shipBeige.png"></div>
-</div></div></div>
+<?php $_SESSION['currspace'] = 'Moomins';?><div class="workspace-container"><div class="workspace-border-container" style="background-color:#999999;"><div class="workspace" id="Moomins" style="background-color:#999999;"></div></div></div>

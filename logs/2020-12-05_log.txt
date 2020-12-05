@@ -1,3 +1,9 @@
 02:01:47am : No image given
 08:00:24pm : adding image: bin/images/spikeMan_jump.png upload: 1
 08:00:59pm : adding image: bin/images/wingMan2.png upload: 1
+08:06:23pm : adding image: bin/images/robot_3Dred.png upload: 1
+08:56:06pm : adding image: bin/images/elementGlass011.png upload: 1
+08:57:07pm : adding image: bin/images/cactus.png upload: 1
+09:08:49pm : adding image: bin/images/flagYellow.png upload: 1
+09:09:36pm : adding image: bin/images/starDiamond.png upload: 1
+09:09:56pm : adding image: bin/images/frozenBush.png upload: 1

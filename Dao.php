@@ -251,6 +251,9 @@
             $query->bindParam(3, $id);
         
             $check = $query->execute();
+
+            //return id 
+           return $conn->lastInsertId();
         }
 
         public function addNote($color, $wname, $uid){

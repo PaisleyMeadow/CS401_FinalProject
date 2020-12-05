@@ -12,7 +12,7 @@
     //make these workspaces php pages
     //pretty much adding all html to string and writing it to file
     //BUT only do this if a change has occured 
-    if(!isset($_SESSION["change"]) || $_SESSION["change"] == true){
+    if(!isset($_SESSION["change"]) || $_SESSION["change"] == "true"){
         if($workspaces != false){
             foreach($workspaces as $space){
                 $filepath = $space["name"].".php";

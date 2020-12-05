@@ -11,7 +11,8 @@ $(".draggable").draggable({
     stack: ".draggable"
 });
 //resize elements with scroll while selected
-$(".draggable").on("dragstart", function(){ 
+//using $(document).on() so elements added dynamically will be draggable 
+$(document).on("dragstart", ".draggable", function(){ 
     var img = $(this);
     
     $(this).bind("mousewheel DOMMouseScroll", function(e){ 
@@ -33,7 +34,7 @@ $(".draggable").on("dragstart", function(){
 //delete element when dragged + dropped over/near delete button
 var inDelete = false;
 
-$(".draggable").on("drag", function(){ 
+$(document).on("drag", ".draggable", function(){ 
 
     var delPos = $("#delete-element").position(); 
     var delWidth = $("#delete-element").outerWidth();
@@ -55,13 +56,13 @@ $(".draggable").on("drag", function(){
         inDelete = false;
     }
 });
-//ask to delete on drop
-$(".draggable").on("dragstop", function(){
+//delete on drop 
+$(document).on("dragstop", ".draggable", function(){
 
     $(this).unbind("mousewheel DOMMouseScroll");    //<< unbinds scrolling size increase event
 
     var del = false;
-    if(inDelete){
+    if(inDelete){ //ask first!
         del = confirm("Are you sure you want to delete this element?");
     }
 
@@ -257,31 +258,31 @@ $("#image-opt").click(function(){
 });
 
 //dragging and dropping image to upload
-$("#new-element-container").on("dragenter", function(e){
-    e.preventDefault();
-    $(this).css("border", "#e41c34 5px solid")
-});
-$("#new-element-container").on("dragover", function(e){
-    e.preventDefault();
-});
-$("#new-element-container").on("drop", function(e){
-    e.preventDefault();
-    $(this).css("border", "none")
+// $("#new-element-container").on("dragenter", function(e){
+//     e.preventDefault();
+//     $(this).css("border", "#e41c34 5px solid")
+// });
+// $("#new-element-container").on("dragover", function(e){
+//     e.preventDefault();
+// });
+// $("#new-element-container").on("drop", function(e){
+//     e.preventDefault();
+//     $(this).css("border", "none")
 
-    if($("#upload-image-div").is(":visible")){
-        var image = e.originalEvent.dataTransfer.files[0] || e.originalEvent.dataTransfer.getData("text/html");
-        var src = $(image).prop('src');
-        var preview = image.name || image;
+//     if($("#upload-image-div").is(":visible")){
+//         var image = e.originalEvent.dataTransfer.files[0] || e.originalEvent.dataTransfer.getData("text/html");
+//         var src = $(image).prop('src');
+//         var preview = image.name || image;
 
-        //add to url input
-        $("#new-element-form input[name='img_url']").val(src);
+//         //add to url input
+//         $("#new-element-form input[name='img_url']").val(src);
 
-        //replace upload options with image preview (either actual image or file name)
-        if(!$("#img-to-upload").length){
-            $("#upload-image-div").append('<label id="img-to-upload">Uploading: ' + preview +'</label>');
-        }
-    }
-});
+//         //replace upload options with image preview (either actual image or file name)
+//         if(!$("#img-to-upload").length){
+//             $("#upload-image-div").append('<label id="img-to-upload">Uploading: ' + preview +'</label>');
+//         }
+//     }
+// });
 // //make entire workspace drag and drop for images
 // $(".workspace").on("dragenter", function(e){
 //     e.preventDefault();
@@ -324,44 +325,57 @@ $("#img").change(function(){
     $("#upload-image-div").append('<label id="img-to-upload">Uploading: ' + imgName +'</label>');
 });
 //now to upload the image or note
-// $("#new-element-form").on('submit', function(e){
+$("#new-element-form").on('submit', function(e){
 
-//     var data = new FormData(this); 
-//     var wname = getURLdata("name");
-//     var noteColor = $("#note-color-picker").val();
-//     var isImage = false;
+    e.preventDefault();
 
-//     //see what option was checked
-//     if($("#image-opt").is(":checked")){ 
-//         isImage = true;
+    var data = new FormData(this); 
+    var wname = getURLdata("name");
+    var noteColor = $("#note-color-picker").val();
+    var isImage = false;
+    var fileName = $("#img")[0].files[0].name;
 
-//         //don't submit if no image is given
-//         if(!$("#img-to-upload").length){
-//             alert("No image given.");
-//             return 0;
-//         }
-//     }
+    //see what option was checked
+    if($("#image-opt").is(":checked")){ 
+        isImage = true;
 
-//     $.ajax({
-//         type: "POST",
-//         url: "upload-element.php",
-//         data: data,
-//         enctype: "multipart/form-data", //not sure if this is necessary but 
-//         processData: false,
-//         contentType: false,
-//         success: function(data) { 
-//             if(!isImage){
-//            //add note to workspace on page
-//                 $("#" + wname).append('<textarea class="ubuntu-font" style="background-color:' + noteColor + ';"></textarea>');
-//             }
-//            $("#new-element-container").fadeOut();
+        //don't submit if no image is given
+        if(!$("#img-to-upload").length){
+            alert("No image given.");
+            return 0;
+        }
+    }
+
+    $.ajax({
+        type: "POST",
+        url: "upload-element.php",
+        data: data,
+        enctype: "multipart/form-data", //not sure if this is necessary but 
+        processData: false,
+        contentType: false,
+        success: function(data) { //data is db id of image
+            if(!isImage){
+           //add note to workspace on page
+                $("#" + wname).append('<textarea class="ubuntu-font draggable" style="background-color:' + noteColor + ';"></textarea>');
+            }
+            else{ //add image
+                $("#" + wname).append('<div><img class="draggable" data-id"' + data + '" src="bin/images/' + fileName + '"></div>');                
+            }
+            
+            //redo draggables so new element is draggable
+            $(".draggable").draggable({
+                containment: '.workspace', 
+                cancel: '',
+                stack: ".draggable"
+            });
+            $("#new-element-container").fadeOut();
            
-//         },
-//         error: function () {
-//             alert("Sorry, could not add element.");
-//         }
-//     });
-// });
+        },
+        error: function () {
+            alert("Sorry, could not add element.");
+        }
+    });
+});
 
 //save content of notes in database
 $("textarea").keydown(function(){

@@ -281,7 +281,7 @@ body{
 }
 /* file input is hidden so I can style the label */
 #new-element-form input[type=file]{
-    /* display: none; */
+    display: none;
 }
 #img-to-upload{
     color: #8685ef;
