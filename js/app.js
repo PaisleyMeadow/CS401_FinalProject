@@ -375,8 +375,12 @@ $("#new-element-form").on('submit', function(e){
                 cancel: '',
                 stack: ".draggable"
             });
-            //clear file input
-            $("#img").val('');
+            //clear form input and img name
+            $("#new-element-form")[0].reset();
+            $("#img-to-upload").remove();
+
+            $("#note-color-div").fadeOut();
+            $("#upload-image-div").fadeOut();
             $("#new-element-container").fadeOut();
            
         },

@@ -15,4 +15,6 @@
 <div><img class="draggable" data-id="1421" src="bin/images/hippo.png"></div>
 <div><img class="draggable" data-id="1431" src="https://cdn.searchenginejournal.com/wp-content/uploads/2020/02/3-alternative-link-building-strategies-to-use-now-5e4e62aec939e-760x400.png"></div>
 <div><img class="draggable" data-id="1441" src="https://cdn.searchenginejournal.com/wp-content/uploads/2020/02/3-alternative-link-building-strategies-to-use-now-5e4e62aec939e-760x400.png"></div>
+<div><img class="draggable" data-id="1471" src="https://compote.slate.com/images/dfa1b5c3-bce0-4b76-be14-7e00f32f9ef8.jpg?width=840"></div>
+<div><img class="draggable" data-id="1481" src="bin/images/parrot.png"></div>
 </div></div></div>
