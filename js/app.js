@@ -300,9 +300,6 @@ $(".workspace").on("drop", function(e){
     if(e.originalEvent.dataTransfer.files[0]){ alert("Drag and drop doesn't work with local files :(");
         image = e.originalEvent.dataTransfer.files[0];
         preview = image.name;
-
-        //add file to form
-        // $("#img").val(preview);
     }
     if(e.originalEvent.dataTransfer.getData("text/html")){
         image = $(e.originalEvent.dataTransfer.getData("text/html")).prop("src");
@@ -327,44 +324,44 @@ $("#img").change(function(){
     $("#upload-image-div").append('<label id="img-to-upload">Uploading: ' + imgName +'</label>');
 });
 //now to upload the image or note
-$("#new-element-form").on('submit', function(e){
+// $("#new-element-form").on('submit', function(e){
 
-    var data = new FormData(this); 
-    var wname = getURLdata("name");
-    var noteColor = $("#note-color-picker").val();
-    var isImage = false;
+//     var data = new FormData(this); 
+//     var wname = getURLdata("name");
+//     var noteColor = $("#note-color-picker").val();
+//     var isImage = false;
 
-    //see what option was checked
-    if($("#image-opt").is(":checked")){ 
-        isImage = true;
+//     //see what option was checked
+//     if($("#image-opt").is(":checked")){ 
+//         isImage = true;
 
-        //don't submit if no image is given
-        if(!$("#img-to-upload").length){
-            alert("No image given.");
-            return 0;
-        }
-    }
+//         //don't submit if no image is given
+//         if(!$("#img-to-upload").length){
+//             alert("No image given.");
+//             return 0;
+//         }
+//     }
 
-    $.ajax({
-        type: "POST",
-        url: "upload-element.php",
-        data: data,
-        enctype: "multipart/form-data", //not sure if this is necessary but 
-        processData: false,
-        contentType: false,
-        success: function(data) { 
-            if(!isImage){
-           //add note to workspace on page
-                $("#" + wname).append('<textarea class="ubuntu-font" style="background-color:' + noteColor + ';"></textarea>');
-            }
-           $("#new-element-container").fadeOut();
+//     $.ajax({
+//         type: "POST",
+//         url: "upload-element.php",
+//         data: data,
+//         enctype: "multipart/form-data", //not sure if this is necessary but 
+//         processData: false,
+//         contentType: false,
+//         success: function(data) { 
+//             if(!isImage){
+//            //add note to workspace on page
+//                 $("#" + wname).append('<textarea class="ubuntu-font" style="background-color:' + noteColor + ';"></textarea>');
+//             }
+//            $("#new-element-container").fadeOut();
            
-        },
-        error: function () {
-            alert("Sorry, could not add element.");
-        }
-    });
-});
+//         },
+//         error: function () {
+//             alert("Sorry, could not add element.");
+//         }
+//     });
+// });
 
 //save content of notes in database
 $("textarea").keydown(function(){

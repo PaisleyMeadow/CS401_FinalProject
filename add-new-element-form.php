@@ -1,6 +1,6 @@
 <div id="new-element-container">
     <h2 class="ubuntu-font">What type of element would you like to add?</h2>
-    <form id="new-element-form" class="ubuntu-font" method="post" enctype="multipart/form-data">
+    <form id="new-element-form" class="ubuntu-font" method="post" action="/upload-element.php" enctype="multipart/form-data">
         <h2><input type="radio" name="type" value="note" id="note-opt">
         <label for="note-opt">Note</label></h2><br>
         <div id="note-color-div">

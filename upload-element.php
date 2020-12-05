@@ -19,6 +19,8 @@
     }
 
     $_SESSION["change"] = true;
+
+    header("Location: app.php");
     
     exit();
 ?>
