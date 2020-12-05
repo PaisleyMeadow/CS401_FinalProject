@@ -1,8 +1,4 @@
 <?php $_SESSION['currspace'] = 'Ladis';?><div class="workspace-container"><div class="workspace-border-container" style="background-color:#F1AEEE;"><div class="workspace" id="Ladis" style="background-color:#F1AEEE;"><div><img class="draggable" data-id="821" src="images/genericItem_color_023.png"></div>
-<div><img class="draggable" data-id="831" src="images/genericItem_color_012.png"></div>
-<div><img class="draggable" data-id="841" src="images/genericItem_color_075.png"></div>
-<div><img class="draggable" data-id="951" src="bin/images/spikeMan_jump.png"></div>
-<div><img class="draggable" data-id="1231" src="bin/images/elementGlass011.png"></div>
 <div><img class="draggable" data-id="1241" src="bin/images/cactus.png"></div>
 <div><img class="draggable" data-id="1251" src="bin/images/flagYellow.png"></div>
 <div><img class="draggable" data-id="1261" src="bin/images/starDiamond.png"></div>
@@ -15,4 +11,8 @@
 <div><img class="draggable" data-id="1341" src="bin/images/debrisStone_1.png"></div>
 <div><img class="draggable" data-id="1381" src="bin/images/whitePuff10.png"></div>
 <div><img class="draggable" data-id="1391" src="bin/images/snake.png"></div>
+<div><img class="draggable" data-id="1411" src="bin/images/panda.png"></div>
+<div><img class="draggable" data-id="1421" src="bin/images/hippo.png"></div>
+<div><img class="draggable" data-id="1431" src="https://cdn.searchenginejournal.com/wp-content/uploads/2020/02/3-alternative-link-building-strategies-to-use-now-5e4e62aec939e-760x400.png"></div>
+<div><img class="draggable" data-id="1441" src="https://cdn.searchenginejournal.com/wp-content/uploads/2020/02/3-alternative-link-building-strategies-to-use-now-5e4e62aec939e-760x400.png"></div>
 </div></div></div>

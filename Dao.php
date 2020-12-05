@@ -275,6 +275,9 @@
             $query->bindParam(2, $id);
         
             $check = $query->execute();
+
+             //return id 
+           return $conn->lastInsertId();
         }
 
         //adds content of note from user input

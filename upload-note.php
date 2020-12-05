@@ -2,6 +2,8 @@
 
 $color = str_replace("#", "", $_POST["note-color"]);
 
-$dao->addNote($color, $_SESSION["currspace"], $user->id);
+$noteId = $dao->addNote($color, $_SESSION["currspace"], $user->id);
+
+echo print_r($noteId, true);
 
 ?>

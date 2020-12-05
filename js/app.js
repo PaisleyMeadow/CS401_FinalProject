@@ -333,14 +333,21 @@ $("#new-element-form").on('submit', function(e){
     var wname = getURLdata("name");
     var noteColor = $("#note-color-picker").val();
     var isImage = false;
-    var fileName = $("#img")[0].files[0].name;
+    var fileName;
 
     //see what option was checked
     if($("#image-opt").is(":checked")){ 
         isImage = true;
 
+        if($(this).find('input[name="img_url"]').val() == ""){
+            fileName = "bin/images/" + $("#img")[0].files[0].name;
+        }
+        else{
+            fileName =  $(this).find('input[name="img_url"]').val();
+        }
+
         //don't submit if no image is given
-        if(!$("#img-to-upload").length){
+        if(fileName == ""){
             alert("No image given.");
             return 0;
         }
@@ -356,10 +363,10 @@ $("#new-element-form").on('submit', function(e){
         success: function(data) { //data is db id of image
             if(!isImage){
            //add note to workspace on page
-                $("#" + wname).append('<textarea class="ubuntu-font draggable" style="background-color:' + noteColor + ';"></textarea>');
+                $("#" + wname).append('<textarea class="ubuntu-font draggable" data-id="' + data + '" style="background-color:' + noteColor + ';"></textarea>');
             }
             else{ //add image
-                $("#" + wname).append('<div><img class="draggable" data-id"' + data + '" src="bin/images/' + fileName + '"></div>');                
+                $("#" + wname).append('<div><img class="draggable" data-id="' + data + '" src="' + fileName + '"></div>');                
             }
             
             //redo draggables so new element is draggable
@@ -368,6 +375,8 @@ $("#new-element-form").on('submit', function(e){
                 cancel: '',
                 stack: ".draggable"
             });
+            //clear file input
+            $("#img").val('');
             $("#new-element-container").fadeOut();
            
         },
