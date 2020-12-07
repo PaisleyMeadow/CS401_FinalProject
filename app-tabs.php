@@ -23,6 +23,17 @@
         }
     }
 
+    //for some reason, on heroku, my session variables are being ignored
+    //making some of the below if statements not work (or something?) it's hard to debug
+    //so this is a fix for that
+    if(isset($_SESSION["currspace"])){
+        foreach($workspaces as $space){
+            if($space["name"] == $_SESSION["currspace"]){
+                createWorkspaceFile($space, $dao);
+            }
+        }
+    }
+
     //if new workspace(s) were added, create those pages
     if(isset($_SESSION["newSpaces"])){
         foreach($_SESSION["newSpaces"] as $newSpace){

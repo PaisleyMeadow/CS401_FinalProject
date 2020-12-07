@@ -9,7 +9,7 @@
             With Muse, you can create a collection of virtual inspiration boards. Whether you're an artist, character designer, or writer, 
             Muse helps you keep all your photo references, visual inspiration, and notes in one place.<br>
             <img src="images/muse1.PNG" alt="Screenshot of application main page.">
-            <img src="images/muse2.PNG" alt="Screenshot of an example workspace.">
+            <img src="images/muse2.PNG" alt="Screenshot of an example workspace."><br>
             Prototype created as a project site for Boise State CS 401. 
      </p>
 </div>

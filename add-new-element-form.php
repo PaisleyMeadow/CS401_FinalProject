@@ -15,7 +15,6 @@
             <p>OR
             <label for="img" id="file-upload-label">Upload Image File</label></p><br>
             <input type="file" id="img" name="img" value="img" accept="image/*">
-            <p> You can also drag and drop an image onto the workspace at any time.</p>
         </div>
         <br>
         <input type="submit" value="Add" id="add-element">
