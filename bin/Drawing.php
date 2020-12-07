@@ -1,1 +1,2 @@
-<?php $_SESSION['currspace'] = 'Drawing';?><div class="workspace-container"><div class="workspace-border-container" style="background-color:#4CA8B5;"><div class="workspace" id="Drawing" style="background-color:#4CA8B5;"></div></div></div>
+<?php $_SESSION['currspace'] = 'Drawing';?><div class="workspace-container"><div class="workspace-border-container" style="background-color:#C9C9C9;"><div class="workspace" id="Drawing" style="background-color:#C9C9C9;"><div><img class="draggable" data-id="1971" src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"></div>
+</div></div></div>
