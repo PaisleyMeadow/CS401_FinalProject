@@ -20,12 +20,12 @@ $(document).on("dragstart", ".draggable", function(){
 
         if(e.originalEvent.wheelDelta > 0 || e.originalEvent.detail < 0){   //up scroll = decrease size
             if(w > 100){
-                img.width(w - 1);
+                img.width(w - 2);
             }
         }
         else{//down scroll = increase size
             if(w > 10){
-                img.width(w + 1);
+                img.width(w + 2);
             }
         }
     });
@@ -173,6 +173,7 @@ $(".workspace-input-submit").click(function(){
 });
 
 $("#edit-name-form").submit(function(e){
+    e.preventDefault();
     var values = $("form").serialize();
     var newName = $("#workspace-name-input").val();
 
@@ -416,7 +417,7 @@ $("textarea").keydown(function(){
 }); 
 /////////end of document wrap
 
-//Gets data from url (where "name" is ?name=X)
+//Gets data from url (where "name" (arg) is ?arg=X)
 function getURLdata(name){
     var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
     if (results==null){

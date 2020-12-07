@@ -1,0 +1,1 @@
+<?php $_SESSION['currspace'] = 'china';?><div class="workspace-container"><div class="workspace-border-container" style="background-color:#66D49C;"><div class="workspace" id="china" style="background-color:#66D49C;"></div></div></div>

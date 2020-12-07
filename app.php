@@ -14,13 +14,6 @@
                     else{
                         echo '<p id="no-workspaces" class="ubuntu-font">No workspaces created yet.</p>';
                     }
-                    //^implement later for showing preview elements in workspace squares >>v
-                    // <a href="workspace.php" class="workspace-icon ubuntu-font">
-                    //     <img class="workspace-icon-image" src="images/ex1.jpg">
-                    //     <img class="workspace-icon-image" src="images/ex2.png">
-                    //     <img class="workspace-icon-image" src="images/ex3.jpg">
-                    //     Workspace1
-                    // </a>////
                 ?>
             </div>
 <?php 

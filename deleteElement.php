@@ -21,6 +21,7 @@
     }
 
     $_SESSION["change"] = true;
+    $_SESSION["reloadMe"] = $_SESSION["currspace"];
 
     exit();
 ?>

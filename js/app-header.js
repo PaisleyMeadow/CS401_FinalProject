@@ -81,8 +81,10 @@ wpickr.on('cancel', instance =>{
 });
 
 $("#new-workspace-form").submit(function(e){
+    e.preventDefault();
     var values = $("form").serialize();
     var name = $("form").find('input[name="workspace-name"]').val();
+    var color = $("form").find('input[name="workspace-color"]').val();
 
     $.ajax({
     type: "POST",
@@ -90,7 +92,21 @@ $("#new-workspace-form").submit(function(e){
     data: values,
     success: function(data) { 
         if(data == 0){
-            window.location.reload(true);
+
+            //hide form
+            $("#add-new-workspace-container").fadeOut();
+
+            //add new tab
+            var newTab = '<a href="workspace.php?name='+ name + '" class="workspace-tabs ubuntu-font">' + name + '</a>';
+            $("#plus-tab").before(newTab);
+
+            //if on all page, add new square
+            if(window.location.pathname == "/app.php"){
+                $("#no-workspaces").remove();
+
+                var newSquare = '<a href="workspace.php?name=' + name + '" class="workspace-icon ubuntu-font" style="background-color:' + color + ';">' + name +'</a>';
+                $("#workspace-icons-container").append(newSquare);
+            }
         }
         else{   //error occured
             alert("Workspace name already in use.");

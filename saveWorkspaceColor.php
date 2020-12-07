@@ -18,6 +18,7 @@
     $dao->saveWorkspaceColor($color, $_SESSION["currspace"], $user->id);
 
     $_SESSION["change"] = true;
+    $_SESSION["reloadMe"] = $_SESSION["currspace"];
 
     exit();
     

@@ -169,10 +169,8 @@ body{
     margin: 2em;
 }
 .workspace img:hover{
-    border: solid #8685ef;
-    border-radius: 1em;
     cursor: pointer;
-    transform: skew(-3deg);
+    opacity: 0.5;
 }
 .workspace textarea{
     resize: none;

@@ -17,6 +17,8 @@
     $dao->updateWorkspaceName($newName, $_SESSION["currspace"], $user->id);
 
     $_SESSION["change"] = true;
+    $_SESSION["reloadMe"] = $_POST["wname"];
+    $_SESSION["currspace"] = $_POST["wname"];
 
     exit();
 ?>

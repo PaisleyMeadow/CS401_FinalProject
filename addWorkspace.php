@@ -21,7 +21,12 @@
         exit();
     }
     else{
+        if(!isset($_SESSION["newSpaces"])){
+            $_SESSION["newSpaces"] = array();
+        }
+        $_SESSION["newSpaces"][] = $_POST["workspace-name"];
         $_SESSION["change"] = true;
+
         echo 0;
         exit();
     }

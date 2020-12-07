@@ -1,6 +1,0 @@
-<?php $_SESSION['currspace'] = 'PaiSpace';?><div class="workspace-container"><div class="workspace-border-container" style="background-color:63A18C;"><div class="workspace" id="PaiSpace" style="background-color:63A18C;"><div><img class="draggable" data-id="171" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToCui0pEumMI0EwYQRNZ13wl3EijCIKePc8Q&usqp=CAU"></div>
-<div><img class="draggable" data-id="201" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc2dRsE4dyFjHiNmOkdIwTnGfP8MXMmOkI4Q&usqp=CAU"></div>
-<div><img class="draggable" data-id="221" src="https://www.insideedition.com/sites/default/files/styles/video_1920x1080/public/images/2020-11/111320_alligator_web.jpg?h=d1cb525d&itok=D3KhTeBb"></div>
-<div><img class="draggable" data-id="231" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDHwjORxsDD6hG8CpAEd5HtQnn1JHlUrjRlg&usqp=CAU"></div>
-<textarea class="ubuntu-font draggable" data-id="121" style="background-color:E41C34;">This is a note. Typing a note. automatically saves okay?</textarea>
-</div></div></div>

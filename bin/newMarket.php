@@ -1,0 +1,2 @@
+<?php $_SESSION['currspace'] = 'newMarket';?><div class="workspace-container"><div class="workspace-border-container" style="background-color:#66D49C;"><div class="workspace" id="newMarket" style="background-color:#66D49C;"><div><img class="draggable" data-id="1811" src="bin/images/penguin.png"></div>
+</div></div></div>
