@@ -1,1 +1,1 @@
-<?php $_SESSION['currspace'] = 'Writing';?><div class="workspace-container"><div class="workspace-border-container" style="background-color:#A9EAAF;"><div class="workspace" id="Writing" style="background-color:#A9EAAF;"></div></div></div>
+<?php $_SESSION['currspace'] = 'Writing';?><div class="workspace-container"><div class="workspace-border-container" style="background-color:#A1F5E9;"><div class="workspace" id="Writing" style="background-color:#A1F5E9;"></div></div></div>

@@ -1,0 +1,1 @@
+<?php $_SESSION['currspace'] = 'Not';?><div class="workspace-container"><div class="workspace-border-container" style="background-color:#94D5FF;"><div class="workspace" id="Not" style="background-color:#94D5FF;"></div></div></div>
